@@ -1,0 +1,26 @@
+{
+       "left cuff":
+              {
+                     "type": "cuff",
+                     "role": "stimulation",
+                     "length": 4.25e3,
+                     "thickness": 240.0,
+                     "insulator resistivity": 1e9,
+                     "number of rings": 1,
+                     "pads per ring": 4,
+                     "angular positions": [0, 1.57079633, 3.14159265, 4.71238898],
+                     "inter-ring distance": 0.75e3,
+                     "ring-cuffend distance": 1.0e3,
+                     "z-position": 5e3,
+                     "stimulation protocol":
+                            {
+                                   "0, 0":
+                                          {
+                                                 "type": "square pulses",
+                                                 "currents": [-3.0],
+                                                 "pulse onset times": [0.01],
+                                                 "pulse durations": [0.2]
+                                          }
+                            }
+              }
+}

@@ -1,0 +1,49 @@
+{
+	"type": "myelinated",
+	"extlayers": 2,
+	"nodelength": 1.0,
+	"paralength1": 3.0,
+	"space_p1": 0.002,
+	"space_p2": 0.004,
+	"space_i": 0.004,
+	"rhoa": 70.0,
+	"cm": 2.0,
+	"IN_e_pas": -80.0,
+	"MYSA_g_pas": 1.0e-3,
+	"FLUT_g_pas": 1.0e-4,
+	"STIN_g_pas": 1.0e-4,
+	"mygm": 0.001,
+	"mycm": 0.1,
+	"regressions": "gaines_sensory_anatomy.csv",
+	"section types":
+		[
+			"node",
+			"MYSA",
+			"FLUT",
+			"STIN"
+		],
+	"nseg":
+		{
+			"node": 1,
+			"MYSA": 1,
+			"FLUT": 1,
+			"STIN": 7
+		},
+	"basic sequence":
+		[
+			"node",
+			"MYSA",
+			"FLUT",
+			"STIN",
+			"FLUT",
+			"MYSA"
+		],
+	"section lengths":
+		{
+			"node": "nodelength",
+			"MYSA": "paralength1",
+			"FLUT": "paralength2",
+			"STIN": "STIN_length"
+		},
+	"hoc file": "./src/hoc/gaines_sensory.hoc"
+}

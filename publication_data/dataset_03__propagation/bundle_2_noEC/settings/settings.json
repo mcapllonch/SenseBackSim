@@ -1,0 +1,45 @@
+{
+	"nerve model": "simple",
+	"axon models": ["MRG"],
+	"only stimulation fields": "False",
+	"ephaptic coupling":
+		{
+			"presence": "True",
+			"use": "resistor network",
+			"resistor network":
+				{
+					"transverse resistor locations": "only nodes of Ranvier",
+					"resistors separation": 1000.0,
+					"outside cuffs": "True",
+					"interaxonal connections": "centers"
+				}
+		},
+	"stimulation": 
+		{
+			"method": "from electrodes",
+			"file": "./data/load/extstim.csv"
+		},
+	"data records":
+		{
+			"record cables": "axons",
+			"record axons": "all",
+			"record sections": ["node"],
+			"variables":
+				[
+					"v"
+				]
+		},
+	"temperature": 37.0,
+	"simulation control":
+		{
+			"dt": 0.005,
+			"nt": 600,
+			"v_init": -80.0
+		},
+	"graphics": "False",
+	"verbose": "True", 
+	"miscellanea":
+		{
+			"NAELC def nseg": 1
+		}
+}

@@ -1,0 +1,146 @@
+begintemplate MyelAxonMammal
+
+public init, create_sections, topol, subsets, geom, biophys
+public NODE, STIN
+public all
+
+
+// Start initializing the class
+proc init() {
+	create_sections($o1)
+	subsets($o1)
+	topol($o1)
+	biophys($o1)
+}
+
+// Create sections
+create NODE[1], STIN[1]
+proc create_sections() {
+	n_rn = $o1.get("section_counter").get("node")
+	n_stin = $o1.get("section_counter").get("STIN")
+	create NODE[n_rn], STIN[n_stin]
+}
+
+// Subset, topology, geometry and biophysics
+objref all
+proc subsets() { local i
+	objref all
+	all = new SectionList()
+	n_rn = $o1.get("section_counter").get("node")
+	n_stin = $o1.get("section_counter").get("STIN")
+	n_mx = $o1.get("mx_n")
+	for i=0, n_mx-1 {
+		
+		// Add NODE
+		if (i < n_rn) {NODE[i] all.append()}
+		
+		// Add STIN
+		if (i < n_stin) {STIN[i] all.append()}
+	}
+}
+
+objref sctps, sec
+proc topol() { local i, i_rn, i_stin
+	objref sec
+	n_rn = $o1.get("section_counter").get("node")
+	n_stin = $o1.get("section_counter").get("STIN")
+	n_mx = $o1.get("mx_n")
+	nsecs = $o1.get("nsecs")
+	sctps = $o1.get("sectypes")
+	i_rn = 0
+	i_stin = 0
+	for i=0, nsecs-1 {
+	
+		// Connect NODE to STIN
+		sec = sctps.o(i)
+		if (strcmp(sec.sectype, "node") == 0) {
+			if (i_rn < n_rn-1) {
+				NODE[i_rn] connect STIN[i_stin](0), 1
+			}
+			// If we are in the last of these sections and it's not the very last section
+			if (i_rn == n_rn-1) {
+				if (i < nsecs-1) {
+					NODE[i_rn] connect STIN[i_stin](0), 1
+				}
+			}
+			i_rn += 1
+		}
+			
+		// Connect STIN to NODE
+		sec = sctps.o(i)
+		if (strcmp(sec.sectype, "STIN") == 0) {
+			if (i_stin < n_stin-1) {
+				STIN[i_stin] connect NODE[i_rn](0), 1
+			}
+			// If we are in the last of these sections and it's not the very last section
+			if (i_stin == n_stin-1) {
+				if (i < nsecs-1) {
+					STIN[i_stin] connect NODE[i_rn](0), 1
+				}
+			}
+			i_stin += 1
+		}
+	}
+}
+
+objref l_rn, l_stin
+proc biophys() {
+	n_rn = $o1.get("section_counter").get("node")
+	n_stin = $o1.get("section_counter").get("STIN")
+	n_mx = $o1.get("mx_n")
+	l_rn = $o1.get("lengths").get("node")
+	l_stin = $o1.get("lengths").get("STIN")
+	nodeD = $o1.get("nodeD")
+	axonD = $o1.get("axonD")
+	fiberD = $o1.get("fiberD")
+	space_p1 = $o1.get("space_p1")
+	space_i = $o1.get("space_i")
+	rhoa = $o1.get("rhoa")
+	cm_ = $o1.get("cm")
+	nl = $o1.get("nl")
+	mycm = $o1.get("mycm")
+	mygm = $o1.get("mygm")
+	e_pas_ = $o1.get("IN_e_pas")
+	g_pas_STIN = $o1.get("STIN_g_pas")
+	Rpn0=(rhoa*1.e2)/(PI*((((nodeD/2)+space_p1)^2)-((nodeD/2)^2)))
+	Rpx=(rhoa*1.e2)/(PI*((((axonD/2)+space_i)^2)-((axonD/2)^2)))
+
+	for i=0, n_mx-1 {
+
+		// NODE
+		if (i < n_rn) {
+			NODE[i] {
+				L = l_rn.x[i]
+				diam = nodeD
+				nseg = 1
+				Ra = rhoa
+				cm = cm_
+				insert axnode
+				insert extracellular
+					xg[0] = 1e10
+					xc[0] = 0
+					xraxial[0] = Rpn0
+			}
+		}
+
+		// STIN
+		if (i < n_stin) {
+			STIN[i] {
+				L = l_stin.x[i]
+				diam = fiberD
+				nseg = 7
+				Ra = rhoa*(1/(axonD/fiberD)^2)
+				cm = cm_*axonD/fiberD
+				insert pas
+					e_pas = e_pas_
+					g_pas = g_pas_STIN*axonD/fiberD
+				insert extracellular 
+					xg[0] = mygm/(nl*2)
+					xc[0] = mycm/(nl*2)
+					xraxial[0] = Rpx
+			}
+		}
+	}
+}
+
+endtemplate MyelAxonMammal

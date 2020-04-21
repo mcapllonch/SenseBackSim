@@ -1,0 +1,20 @@
+{
+	"resistivities":
+		{
+			"perineurium": 1.136e5, 
+			"epineurium": 
+				{
+					"transverse": 1.211e3,
+					"longitudinal": 1.211e3
+				},
+			"endoneurium":
+				{
+					"transverse": 1.211e3,
+					"longitudinal": 1.211e3
+				}
+		},
+	"thickness":
+		{
+			"perineurium": 4.7
+		}
+}

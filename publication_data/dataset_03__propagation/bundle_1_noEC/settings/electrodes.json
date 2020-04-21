@@ -1,0 +1,31 @@
+{
+       "intracellular set 1":
+              {
+                     "type": "intracellular",
+                     "role": "stimulation",
+                     "axons": ["all"],
+                     "node of Ranvier": 0,
+                     "stimulation protocol":
+                            {
+                                   "type": "square pulses",
+                                   "currents": [1.0e-2],
+                                   "pulse onset times": [0.01],
+                                   "pulse durations": [0.01]
+                            }
+              },
+       "right cuff":
+              {
+                     "type": "cuff",
+                     "role": "recording",
+                     "length": 6.0e4,
+                     "thickness": 240.0,
+                     "insulator resistivity": 1e9,
+                     "number of rings": 0,
+                     "pads per ring": 4,
+                     "angular positions": [0, 1.57079633, 3.14159265, 4.71238898],
+                     "inter-ring distance": 1.0e4,
+                     "ring-cuffend distance": 1.0e3,
+                     "z-position": 3.0e4
+              }
+}
+

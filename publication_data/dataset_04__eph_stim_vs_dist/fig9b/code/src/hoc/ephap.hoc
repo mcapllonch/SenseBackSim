@@ -1,0 +1,84 @@
+// Created by LinearCircuit[0] of NEURON -- Release 7.4 (1370:16a7055d4a86) 2015-11-09
+// manages LinearMechanism of rank 4
+// See first public declaration and proc init() for important
+//  methods and variable names
+// Change begintemplate and endtemplate statements if LM is not
+//  an appropriate name for the class.
+// Usage: (assume object reference is "lm")
+//  1) Attach segments to all the lm.*_loc(x) methods.
+//  2) lm.install() creates the LinearMechanism
+//  3) If any parameters are changed after lm.install(), call lm.afactors()
+//  Named voltage nodes and internal states can be plotted using their alias
+//    names in proc init()
+//  Stimuli can be changed dynamically during a run using Vector.play. See
+//    their alias names in proc init()
+//  Initial conditions for named voltage nodes can be changed prior to finitialize().
+//    Initial conditions are 0 by default (not copied from the original
+//    LinearCircuit builder that generated this file).
+
+// netlist: 5 v nodes  4 elements
+//  index type name (endname)...(endname) (v node indices)
+//   0 Ground[0]  () (  -1 )
+//   1 OutsideCell[0] BScell[1].axon(0.5) () (ex1) (  2  1 )
+//   2 OutsideCell[0] BScell[0].axon(0.5) () (ex0) (  3  0 )
+//   3 Resistor[0] Rx () () (  1  0 )
+
+begintemplate EphapDBA
+public install, add_submatrix, afactors, ex1_loc, ex0_loc
+ //also see the aliases in proc init() for more public names
+public _lm, _c, _g, _b, _y, _y0, _sl, _xloc, _layer, _afac
+objref this,_lm,  _c, _g, _b, _y, _y0, _srs[1], _sl, _xloc, _layer, _afac
+proc init() { localobj _sf
+  _n = $1
+  _c = new Matrix(_n,_n,2)
+  _g = new Matrix(_n,_n,2)
+  _b = new Vector(_n)
+  _y = new Vector(_n)
+  _y0 = new Vector(_n)
+
+  _ncellport = $1
+  objref _srs[_ncellport+1] // in case _ncellport=0
+  _xloc = new Vector(_ncellport)
+  _layer = new Vector(_ncellport)
+  _afac = new Vector(_ncellport)
+  _sf = new StringFunctions()
+}
+proc ex0_loc() {local ix
+  ix = $1
+  _srs[ix] = new SectionRef()
+  _xloc.x[ix] = $2
+  _layer.x[ix] = $3
+}
+proc ex1_loc() {local ix
+  ix = $1
+  _srs[ix] = new SectionRef()
+  _xloc.x[ix] = $2
+  _layer.x[ix] = $3
+}
+proc add_submatrix() {
+  // Calculate area factors
+  _srs[$1].sec {
+    a = area(_xloc.x[$1])
+    if (a == 0) { a = 100 }
+    _afac.x[$1] = -100./a
+   }
+  _srs[$2].sec {
+    a = area(_xloc.x[$2])
+    if (a == 0) { a = 100 }
+    _afac.x[$2] = -100./a
+  }
+  // Fill elements and add to matrix
+  _g.x[$1][$1] += (-1.0/$3)*_afac.x[$1]
+  _g.x[$1][$2] += (1.0/$3)*_afac.x[$1]
+  _g.x[$2][$1] += (1.0/$3)*_afac.x[$2]
+  _g.x[$2][$2] += (-1.0/$3)*_afac.x[$2]
+}
+proc install() { local i
+  _sl = new SectionList()
+  for i=0, _ncellport-1 {
+    _srs[i].sec { _sl.append() }
+  }
+  _y.copy(_y0)
+  _lm = new LinearMechanism(_c, _g, _y, _y0, _b, _sl, _xloc, _layer)
+}
+endtemplate EphapDBA

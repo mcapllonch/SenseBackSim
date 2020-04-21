@@ -1,0 +1,8 @@
+nerve. scenario002
+This includes MRG and Gaines sensory model.
+The tissue properties have been modified according to the reviewers.
+This is for the study of the effects of EC on stimulation at the first round of revisions.
+
+UPDATE: 2ND ROUND OF REVISIONS:
+This version of the code does NOT adjust rho_endo_longt of the fascicles as I did originally to make rho_endo_longt_eq match the nominal value 175 Ohm*cm. Instead, rho_endo is a isotropic resistivity with value 1211 Ohm*cm.
+The only adjustment is to xraxial, by lumping  endoneurium and epineurium for those fibers overlapping with the epineurium. But this is something I did after the first round of revisions.

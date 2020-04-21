@@ -1,0 +1,49 @@
+begintemplate Wire
+
+public init, topol, subsets, geom, biophys
+public wire
+public all
+
+proc init() {
+	subsets()
+	geom($o1)
+	topol($o1)
+	biophys($o1)
+}
+
+// Create wire and reference
+create wire
+
+// Subset, topology, geometry and biophysics
+objref all
+proc subsets() {
+	objref all
+	all = new SectionList()
+	wire all.append()
+}
+
+proc geom() {
+	wire.L = $o1.get("length")
+	wire.diam = 1.
+}
+
+proc topol() {
+	forsec all {
+		nseg = $o1.get("nseg")
+	}
+}
+
+proc biophys() {
+	forsec all {
+		Ra = 1.e99
+		cm = 0.
+		insert extracellular
+			xg = 0.
+			xraxial = 1e9
+		insert pas
+			e_pas = 0.
+			g_pas = 1.e9
+	}
+}
+
+endtemplate Wire

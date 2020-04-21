@@ -1,0 +1,66 @@
+{
+	"cross-section":
+		{
+			"use contours": "load file",
+			"use internal topology": "load file",
+			"contours file": "./data/load/created_nerve_contour.csv",
+			"internal topology file": "./data/load/created_nerve_internal_topology.json",
+			"contours point reduction": 9,
+			"contours generation":
+				{
+					"filename": "created_nerve_contour.csv",
+					"nerve": 
+						{
+							"diameter": 100.0,
+							"center": [0.0, 0.0]
+						},
+					"fascicles":
+						{
+							"number": 1,
+							"diameters": [99.99],
+							"centers": [[0.0, 0.0]]
+						}
+				},
+			"fibers distribution":
+				{
+					"filename": "created_nerve_internal_topology.csv",
+					"axon placements":
+						{
+							"number": 2,
+							"locations": [[0.0, -25.0], [0.0, 25.0]],
+							"radii": [5.0, 5.0],
+							"models": 
+								{
+									"fixed": ["MRG", "gaines_sensory"], 
+									"proportions":
+										{
+											"MRG": 0.15, 
+											"gaines_sensory": 0.85
+										}
+								},
+							"packing": 
+								{
+									"type": "fixed locations",
+									"avg. radius": 3.65,
+									"gamma shape": 2.5,
+									"min radius": 1.5,
+									"max radius": 10.0,
+									"max axons per fascicle": 1e9,
+									"max iterations": 1.0e4
+								},
+							"minimum separation": 0.0
+						},
+					"min NAELC density": 1.0e-4
+						
+				}
+		},
+	"length": 1.0e4,
+	"axons":
+		{
+			"myelinated":
+				{
+					"internodal length to fiberD ratio": "given by data regressions",
+					"nodes misalignement": 0.5 
+				}
+		}
+}

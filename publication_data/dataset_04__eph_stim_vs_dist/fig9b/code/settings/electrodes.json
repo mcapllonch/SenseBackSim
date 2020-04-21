@@ -1,0 +1,30 @@
+{
+	"intracellular 0":
+		{
+			"type": "intracellular",
+			"role": "stimulation",
+			"axon": 0,
+			"node of Ranvier": 1,
+			"stimulation protocol":
+				{
+					"type": "square pulses",
+					"currents": [2.0e-3],
+					"pulse onset times": [0.1],
+					"pulse durations": [0.2]
+				}
+		},
+	"right cuff":
+		{
+			"type": "cuff",
+			"role": "recording",
+			"length": 3.0e4,
+			"thickness": 240.0,
+			"insulator resistivity": 1e9,
+			"number of rings": 1,
+			"pads per ring": 4,
+			"angular positions": [0, 1.57079633, 3.14159265, 4.71238898],
+			"inter-ring distance": 1e3,
+			"ring-cuffend distance": 1.5e3,
+			"z-position": 1.5e4
+		}
+}

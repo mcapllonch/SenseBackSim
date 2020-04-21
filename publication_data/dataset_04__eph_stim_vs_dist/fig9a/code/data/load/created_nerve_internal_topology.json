@@ -1,0 +1,5016 @@
+{
+    "cables": {
+        "0": {
+            "type": "NAELC",
+            "x": 125.0,
+            "y": 0.0,
+            "r": 0.0,
+            "free extracellular area": 142.9617607112125,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.917851209206678
+            },
+            "epineurium": 0.08214879079332205
+        },
+        "1": {
+            "type": "NAELC",
+            "x": 120.74072828613355,
+            "y": 32.352380637815095,
+            "r": 0.0,
+            "free extracellular area": 58.78211030899001,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8708240741694958
+            },
+            "epineurium": 0.1291759258305042
+        },
+        "2": {
+            "type": "NAELC",
+            "x": 108.25317547305484,
+            "y": 62.49999999999999,
+            "r": 0.0,
+            "free extracellular area": 54.95776874818148,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8397973541973897
+            },
+            "epineurium": 0.16020264580261034
+        },
+        "3": {
+            "type": "NAELC",
+            "x": 88.38834764831844,
+            "y": 88.38834764831843,
+            "r": 0.0,
+            "free extracellular area": 83.27480252545683,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8831138490290275
+            },
+            "epineurium": 0.11688615097097255
+        },
+        "4": {
+            "type": "NAELC",
+            "x": 62.500000000000014,
+            "y": 108.25317547305482,
+            "r": 0.0,
+            "free extracellular area": 236.55082878612302,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9436368795968912
+            },
+            "epineurium": 0.05636312040310876
+        },
+        "5": {
+            "type": "NAELC",
+            "x": 32.352380637815095,
+            "y": 120.74072828613355,
+            "r": 0.0,
+            "free extracellular area": 97.16436836708817,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8855269550937974
+            },
+            "epineurium": 0.11447304490620258
+        },
+        "6": {
+            "type": "NAELC",
+            "x": 7.654042494670958e-15,
+            "y": 125.0,
+            "r": 0.0,
+            "free extracellular area": 144.54475550491907,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.926582273725958
+            },
+            "epineurium": 0.07341772627404197
+        },
+        "7": {
+            "type": "NAELC",
+            "x": -32.35238063781511,
+            "y": 120.74072828613355,
+            "r": 0.0,
+            "free extracellular area": 138.1887625369909,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9064874291119873
+            },
+            "epineurium": 0.09351257088801268
+        },
+        "8": {
+            "type": "NAELC",
+            "x": -62.49999999999997,
+            "y": 108.25317547305484,
+            "r": 0.0,
+            "free extracellular area": 168.87882021465884,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9241007059627814
+            },
+            "epineurium": 0.07589929403721862
+        },
+        "9": {
+            "type": "NAELC",
+            "x": -88.38834764831843,
+            "y": 88.38834764831844,
+            "r": 0.0,
+            "free extracellular area": 108.08510115432728,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.888706455797565
+            },
+            "epineurium": 0.11129354420243498
+        },
+        "10": {
+            "type": "NAELC",
+            "x": -108.25317547305484,
+            "y": 62.49999999999999,
+            "r": 0.0,
+            "free extracellular area": 146.9756704345673,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.911016496504089
+            },
+            "epineurium": 0.088983503495911
+        },
+        "11": {
+            "type": "NAELC",
+            "x": -120.74072828613353,
+            "y": 32.35238063781513,
+            "r": 0.0,
+            "free extracellular area": 108.83071580659453,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9100058221120226
+            },
+            "epineurium": 0.08999417788797737
+        },
+        "12": {
+            "type": "NAELC",
+            "x": -125.0,
+            "y": 1.5308084989341916e-14,
+            "r": 0.0,
+            "free extracellular area": 81.91463223145479,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9012528033030994
+            },
+            "epineurium": 0.09874719669690057
+        },
+        "13": {
+            "type": "NAELC",
+            "x": -120.74072828613355,
+            "y": -32.352380637815045,
+            "r": 0.0,
+            "free extracellular area": 204.34339110147175,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9399635348240726
+            },
+            "epineurium": 0.06003646517592742
+        },
+        "14": {
+            "type": "NAELC",
+            "x": -108.25317547305482,
+            "y": -62.500000000000014,
+            "r": 0.0,
+            "free extracellular area": 192.03309900521162,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9325921206803993
+            },
+            "epineurium": 0.06740787931960068
+        },
+        "15": {
+            "type": "NAELC",
+            "x": -88.38834764831846,
+            "y": -88.38834764831843,
+            "r": 0.0,
+            "free extracellular area": 52.341803272507605,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8385342185624847
+            },
+            "epineurium": 0.16146578143751533
+        },
+        "16": {
+            "type": "NAELC",
+            "x": -62.50000000000006,
+            "y": -108.2531754730548,
+            "r": 0.0,
+            "free extracellular area": 8.650141284872007,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.6224741677430973
+            },
+            "epineurium": 0.3775258322569027
+        },
+        "17": {
+            "type": "NAELC",
+            "x": -32.35238063781508,
+            "y": -120.74072828613355,
+            "r": 0.0,
+            "free extracellular area": 98.08626120223562,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8781924924267168
+            },
+            "epineurium": 0.12180750757328318
+        },
+        "18": {
+            "type": "NAELC",
+            "x": -2.2962127484012872e-14,
+            "y": -125.0,
+            "r": 0.0,
+            "free extracellular area": 244.09575258145924,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9420422933861884
+            },
+            "epineurium": 0.05795770661381161
+        },
+        "19": {
+            "type": "NAELC",
+            "x": 32.35238063781514,
+            "y": -120.74072828613353,
+            "r": 0.0,
+            "free extracellular area": 183.9740318834538,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9330496692291184
+            },
+            "epineurium": 0.06695033077088164
+        },
+        "20": {
+            "type": "NAELC",
+            "x": 62.500000000000014,
+            "y": -108.25317547305482,
+            "r": 0.0,
+            "free extracellular area": 202.43709761364698,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9378005002432613
+            },
+            "epineurium": 0.06219949975673866
+        },
+        "21": {
+            "type": "NAELC",
+            "x": 88.38834764831842,
+            "y": -88.38834764831846,
+            "r": 0.0,
+            "free extracellular area": 134.9685024186947,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9073110674214198
+            },
+            "epineurium": 0.09268893257858024
+        },
+        "22": {
+            "type": "NAELC",
+            "x": 108.2531754730548,
+            "y": -62.50000000000006,
+            "r": 0.0,
+            "free extracellular area": 106.42629907311675,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9001326775112775
+            },
+            "epineurium": 0.09986732248872254
+        },
+        "23": {
+            "type": "NAELC",
+            "x": 120.74072828613355,
+            "y": -32.35238063781509,
+            "r": 0.0,
+            "free extracellular area": 63.20843046731807,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.8384724198931838
+            },
+            "epineurium": 0.16152758010681623
+        },
+        "24": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -40.924734899617526,
+            "y": 6.697252009062682,
+            "r": 10.0,
+            "free extracellular area": 366.39316816347974,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "25": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 72.33464696998152,
+            "y": -79.65476892887351,
+            "r": 10.0,
+            "free extracellular area": 309.8432589092484,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9977120797645868
+            },
+            "epineurium": 0.0022879202354132433
+        },
+        "26": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -86.09608232256473,
+            "y": 28.574373203788383,
+            "r": 10.0,
+            "free extracellular area": 385.8948255262988,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "27": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 3.7043102557799488,
+            "y": 46.97279109335642,
+            "r": 10.0,
+            "free extracellular area": 357.9121870115916,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "28": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 57.489929574790985,
+            "y": -19.276216525556677,
+            "r": 10.0,
+            "free extracellular area": 263.72670888729573,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "29": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -96.35206072280151,
+            "y": 4.386377945406027,
+            "r": 10.0,
+            "free extracellular area": 266.32395529284196,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "30": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -56.643869276661896,
+            "y": -97.29672834212387,
+            "r": 10.0,
+            "free extracellular area": 306.9442588547575,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9924365799183645
+            },
+            "epineurium": 0.0075634200816354635
+        },
+        "31": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -7.959221528176651,
+            "y": 93.79813297168519,
+            "r": 10.0,
+            "free extracellular area": 426.51902670330566,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "32": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -13.153426762462072,
+            "y": 3.0927621714014624,
+            "r": 10.0,
+            "free extracellular area": 389.88193581592606,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "33": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -67.16063952614877,
+            "y": 48.56529813535684,
+            "r": 10.0,
+            "free extracellular area": 357.11122273269604,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "34": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 24.666401836603374,
+            "y": -3.57289211722704,
+            "r": 10.0,
+            "free extracellular area": 262.33801247663877,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "35": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 27.01256187943446,
+            "y": -40.773542056667395,
+            "r": 10.0,
+            "free extracellular area": 272.3692912769296,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "36": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 74.2493561227885,
+            "y": 33.409098837476506,
+            "r": 10.0,
+            "free extracellular area": 423.5786238274616,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "37": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -44.650314214807416,
+            "y": 56.810540008462084,
+            "r": 10.0,
+            "free extracellular area": 398.1638208995212,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "38": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 66.46654034783145,
+            "y": -40.648815176940914,
+            "r": 10.0,
+            "free extracellular area": 259.62288459579423,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "39": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 87.27581562971025,
+            "y": 8.202935553397966,
+            "r": 10.0,
+            "free extracellular area": 256.73425794428186,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "40": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 32.438716555773915,
+            "y": 35.24173182182059,
+            "r": 10.0,
+            "free extracellular area": 364.49559472276025,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "41": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -38.26572366525766,
+            "y": -75.36600011609707,
+            "r": 10.0,
+            "free extracellular area": 430.2743499791998,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "42": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -55.91440345471096,
+            "y": -19.74413063905172,
+            "r": 10.0,
+            "free extracellular area": 304.6154625087759,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "43": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 18.705761536455615,
+            "y": 74.41794997921826,
+            "r": 10.0,
+            "free extracellular area": 695.7966039809337,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "44": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 40.809273953123615,
+            "y": 12.502557439247655,
+            "r": 10.0,
+            "free extracellular area": 358.1102969786205,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "45": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -18.54109820563043,
+            "y": -43.190051652165934,
+            "r": 10.0,
+            "free extracellular area": 374.65684416403184,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "46": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 2.390926272666225,
+            "y": -51.2054934698869,
+            "r": 10.0,
+            "free extracellular area": 268.06440075141785,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "47": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -29.90464716111485,
+            "y": -104.47680021988113,
+            "r": 10.0,
+            "free extracellular area": 521.6884039879089,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "48": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -60.222849991085376,
+            "y": 88.17108040253046,
+            "r": 10.0,
+            "free extracellular area": 358.6525589269443,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9960939568359284
+            },
+            "epineurium": 0.0039060431640716153
+        },
+        "49": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -97.03870311175494,
+            "y": -25.823369233295836,
+            "r": 10.0,
+            "free extracellular area": 321.7943257981063,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "50": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 105.5735771844181,
+            "y": 36.5643780417046,
+            "r": 10.0,
+            "free extracellular area": 263.117919184859,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9758447031471008
+            },
+            "epineurium": 0.02415529685289919
+        },
+        "51": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -91.85406108767107,
+            "y": 52.470795213788165,
+            "r": 10.0,
+            "free extracellular area": 325.58475162821406,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "52": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -16.241447242725055,
+            "y": 63.95539377534578,
+            "r": 10.0,
+            "free extracellular area": 468.7173335420651,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "53": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 51.308066575805704,
+            "y": 84.28189453011578,
+            "r": 10.0,
+            "free extracellular area": 521.6041000139996,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "54": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 49.35271141428249,
+            "y": -79.94659746812194,
+            "r": 10.0,
+            "free extracellular area": 286.80761443106195,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "55": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 72.98005953301686,
+            "y": 55.90601458738138,
+            "r": 10.0,
+            "free extracellular area": 263.21350046837716,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "56": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 28.526631044936952,
+            "y": 104.06012296928512,
+            "r": 10.0,
+            "free extracellular area": 378.13850798218783,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "57": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 9.257190936015892,
+            "y": 25.304400423135405,
+            "r": 10.0,
+            "free extracellular area": 379.6640348683664,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "58": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 7.719080676222068,
+            "y": -102.05291138198264,
+            "r": 10.0,
+            "free extracellular area": 540.3213436240819,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "59": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -64.4204638126715,
+            "y": 4.858740977364933,
+            "r": 10.0,
+            "free extracellular area": 386.6621789572899,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "60": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -61.52231767890546,
+            "y": -75.97387993413311,
+            "r": 10.0,
+            "free extracellular area": 271.9319603712341,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "61": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 103.11287944646696,
+            "y": -7.119075758815496,
+            "r": 10.0,
+            "free extracellular area": 215.5514640978309,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "62": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 98.36061989197543,
+            "y": -50.242955929436704,
+            "r": 10.0,
+            "free extracellular area": 274.5752899534312,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9836887527280089
+            },
+            "epineurium": 0.01631124727199107
+        },
+        "63": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 108.44997052713885,
+            "y": 15.257611694098161,
+            "r": 10.0,
+            "free extracellular area": 214.51710918560758,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9766097374614057
+            },
+            "epineurium": 0.02339026253859433
+        },
+        "64": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -82.94038018735178,
+            "y": -77.19012985599802,
+            "r": 10.0,
+            "free extracellular area": 210.07816933830355,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9662418079737046
+            },
+            "epineurium": 0.033758192026295375
+        },
+        "65": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 0.7307742744861982,
+            "y": -29.934926975785658,
+            "r": 10.0,
+            "free extracellular area": 250.42650279786375,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "66": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 63.27405515283747,
+            "y": 6.662163615915917,
+            "r": 10.0,
+            "free extracellular area": 333.43396727096405,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "67": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -16.041319047651438,
+            "y": 34.18708332172665,
+            "r": 10.0,
+            "free extracellular area": 430.4264386755852,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "68": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -55.56517388255762,
+            "y": -46.09211859426169,
+            "r": 10.0,
+            "free extracellular area": 480.80004578139443,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "69": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -38.59459981916789,
+            "y": 81.61298718393843,
+            "r": 10.0,
+            "free extracellular area": 301.309534003902,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "70": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 39.820043415163504,
+            "y": -100.5732953401848,
+            "r": 10.0,
+            "free extracellular area": 387.79825016132446,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9903128809032371
+            },
+            "epineurium": 0.009687119096762897
+        },
+        "71": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -87.95948085749161,
+            "y": -56.05131745383545,
+            "r": 10.0,
+            "free extracellular area": 361.0890354354472,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "72": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 74.64460449557944,
+            "y": 82.29679322844476,
+            "r": 10.0,
+            "free extracellular area": 310.80462942261175,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.983600213078884
+            },
+            "epineurium": 0.01639978692111599
+        },
+        "73": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -78.28763732339466,
+            "y": -15.123130909776703,
+            "r": 10.0,
+            "free extracellular area": 182.35339460503184,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "74": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -78.84851644542083,
+            "y": 73.10019855037501,
+            "r": 10.0,
+            "free extracellular area": 323.22911651736314,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "75": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 49.17950864530906,
+            "y": -54.04632690962717,
+            "r": 10.0,
+            "free extracellular area": 282.1738842686921,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "76": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 81.15533182937119,
+            "y": -18.198579511630555,
+            "r": 10.0,
+            "free extracellular area": 320.5139807494673,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "77": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 14.059152088112004,
+            "y": -79.47683741331456,
+            "r": 10.0,
+            "free extracellular area": 340.8547786319253,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "78": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -29.132563097764628,
+            "y": 102.65731748821989,
+            "r": 10.0,
+            "free extracellular area": 359.54154184556893,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "79": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 49.050331706738724,
+            "y": 49.070584711367474,
+            "r": 10.0,
+            "free extracellular area": 484.05030787934203,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "80": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -44.65689315560058,
+            "y": 30.036883778926438,
+            "r": 10.0,
+            "free extracellular area": 425.41768786228414,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "81": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -27.71196878825209,
+            "y": -22.160874950554827,
+            "r": 10.0,
+            "free extracellular area": 423.51690790548884,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "82": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -13.541354507600527,
+            "y": -72.56882872887122,
+            "r": 10.0,
+            "free extracellular area": 465.2299888447654,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "83": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 8.763664632106074,
+            "y": 111.23138867825523,
+            "r": 10.0,
+            "free extracellular area": 257.798989968577,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9754117854964853
+            },
+            "epineurium": 0.02458821450351467
+        },
+        "84": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -110.44524266605366,
+            "y": 22.268494717714333,
+            "r": 10.0,
+            "free extracellular area": 268.0191528104454,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9737612279281124
+            },
+            "epineurium": 0.02623877207188763
+        },
+        "85": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 94.16425016700921,
+            "y": 57.66559195429281,
+            "r": 10.0,
+            "free extracellular area": 278.45838045811644,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9912470527328217
+            },
+            "epineurium": 0.008752947267178346
+        },
+        "86": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 29.444190178671537,
+            "y": -64.73020892676817,
+            "r": 10.0,
+            "free extracellular area": 229.61021749978528,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "87": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 106.24225767591889,
+            "y": -28.76596243029158,
+            "r": 10.0,
+            "free extracellular area": 244.83102439413352,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "88": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 79.12633659178144,
+            "y": -59.016082574587045,
+            "r": 10.0,
+            "free extracellular area": 264.36091542422247,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "89": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -73.94673270680997,
+            "y": -35.78325244546562,
+            "r": 10.0,
+            "free extracellular area": 186.31055740896255,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "90": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": -112.84213326736429,
+            "y": -8.808185665722446,
+            "r": 10.0,
+            "free extracellular area": 186.59471069938974,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 0.9591947242890062
+            },
+            "epineurium": 0.040805275710993794
+        },
+        "91": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 36.18001452181392,
+            "y": -21.578222285397985,
+            "r": 10.0,
+            "free extracellular area": 260.31047238073535,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        },
+        "92": {
+            "type": "Axon",
+            "model": "MRG",
+            "x": 4.068995666386063,
+            "y": -9.140737053425964,
+            "r": 10.0,
+            "free extracellular area": 245.43910642610768,
+            "start position": 0.0,
+            "endoneurium": {
+                "Fascicle_00": 1.0
+            },
+            "epineurium": 0.0
+        }
+    },
+    "pairs": {
+        "(77, 86)": {
+            "pair": [
+                77,
+                86
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -63.25776780407197,
+                    "x": 13.272974668878794
+                },
+                "b": {
+                    "y": -82.45068850215011,
+                    "x": 31.669475830612903
+                }
+            }
+        },
+        "(20, 25)": {
+            "pair": [
+                20,
+                25
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -98.41874551583143,
+                    "x": 75.31647864768318
+                },
+                "b": {
+                    "y": -93.50155263760375,
+                    "x": 61.01765517014121
+                }
+            }
+        },
+        "(37, 69)": {
+            "pair": [
+                37,
+                69
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 66.88199243920346,
+                    "x": -32.08039108105616
+                },
+                "b": {
+                    "y": 72.06264461511518,
+                    "x": -53.2988375817844
+                }
+            }
+        },
+        "(32, 57)": {
+            "pair": [
+                32,
+                57
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 19.34133190106605,
+                    "x": -7.045207050493804
+                },
+                "b": {
+                    "y": 8.533100103788257,
+                    "x": 3.6670605921034327
+                }
+            }
+        },
+        "(30, 41)": {
+            "pair": [
+                30,
+                41
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -91.86484094872075,
+                    "x": -40.85167248615926
+                },
+                "b": {
+                    "y": -84.48025228572467,
+                    "x": -49.663737122793265
+                }
+            }
+        },
+        "(62, 87)": {
+            "pair": [
+                62,
+                87
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -43.685031920505544,
+                    "x": 113.69325049043933
+                },
+                "b": {
+                    "y": -34.624978459459946,
+                    "x": 89.00514446237631
+                }
+            }
+        },
+        "(4, 72)": {
+            "pair": [
+                4,
+                72
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 95.05114570608657,
+                    "x": 63.97684247449634
+                },
+                "b": {
+                    "y": 99.622681079523,
+                    "x": 73.74747927381443
+                }
+            }
+        },
+        "(30, 60)": {
+            "pair": [
+                30,
+                60
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -84.48025228572467,
+                    "x": -49.663737122793265
+                },
+                "b": {
+                    "y": -89.47597014830376,
+                    "x": -71.4991499200015
+                }
+            }
+        },
+        "(61, 76)": {
+            "pair": [
+                61,
+                76
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -19.2733614060802,
+                    "x": 95.4717166050143
+                },
+                "b": {
+                    "y": -6.061837970135318,
+                    "x": 88.80534720704978
+                }
+            }
+        },
+        "(18, 19)": {
+            "pair": [
+                18,
+                19
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -119.7085043456195,
+                    "x": 15.759923579552456
+                },
+                "b": {
+                    "y": -122.87036414306677,
+                    "x": 16.176190318907565
+                }
+            }
+        },
+        "(66, 76)": {
+            "pair": [
+                66,
+                76
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -3.0816434881492754,
+                    "x": 75.94988478290108
+                },
+                "b": {
+                    "y": -8.19367793905662,
+                    "x": 68.84250774030103
+                }
+            }
+        },
+        "(51, 74)": {
+            "pair": [
+                51,
+                74
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 58.32302874578829,
+                    "x": -78.27291891795085
+                },
+                "b": {
+                    "y": 69.38759346949311,
+                    "x": -95.82353865036553
+                }
+            }
+        },
+        "(25, 54)": {
+            "pair": [
+                25,
+                54
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -66.92013333014793,
+                    "x": 60.68011977200888
+                },
+                "b": {
+                    "y": -93.50155263760375,
+                    "x": 61.01765517014121
+                }
+            }
+        },
+        "(24, 42)": {
+            "pair": [
+                24,
+                42
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -10.76358152789254,
+                    "x": -40.940069392256554
+                },
+                "b": {
+                    "y": -4.5714849510098325,
+                    "x": -51.86276554005102
+                }
+            }
+        },
+        "(40, 79)": {
+            "pair": [
+                40,
+                79
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 56.08396279197975,
+                    "x": 29.14989241690809
+                },
+                "b": {
+                    "y": 29.3219513493969,
+                    "x": 51.428756687752546
+                }
+            }
+        },
+        "(84, 90)": {
+            "pair": [
+                84,
+                90
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 6.9729140169421555,
+                    "x": -114.79116541355431
+                },
+                "b": {
+                    "y": 6.739000556275002,
+                    "x": -111.75838041679135
+                }
+            }
+        },
+        "(6, 7)": {
+            "pair": [
+                6,
+                7
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 117.19070585356951,
+                    "x": -15.428449119652285
+                },
+                "b": {
+                    "y": 122.87036414306678,
+                    "x": -16.176190318907555
+                }
+            }
+        },
+        "(37, 48)": {
+            "pair": [
+                37,
+                48
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 68.76824151191742,
+                    "x": -59.93322668041523
+                },
+                "b": {
+                    "y": 72.06264461511518,
+                    "x": -53.2988375817844
+                }
+            }
+        },
+        "(31, 69)": {
+            "pair": [
+                31,
+                69
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 87.3031681978862,
+                    "x": -23.116860300730046
+                },
+                "b": {
+                    "y": 81.26796393067958,
+                    "x": -20.71637276125124
+                }
+            }
+        },
+        "(15, 30)": {
+            "pair": [
+                15,
+                30
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -98.20436622300357,
+                    "x": -75.59586318150828
+                },
+                "b": {
+                    "y": -92.87956653837566,
+                    "x": -74.10157676881127
+                }
+            }
+        },
+        "(14, 71)": {
+            "pair": [
+                14,
+                71
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -69.44363087846378,
+                    "x": -97.33909357154764
+                },
+                "b": {
+                    "y": -44.74812375245335,
+                    "x": -105.1865303635675
+                }
+            }
+        },
+        "(11, 84)": {
+            "pair": [
+                11,
+                84
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 26.183950853465902,
+                    "x": -121.55281747343558
+                },
+                "b": {
+                    "y": 40.997670201779954,
+                    "x": -107.04355958379851
+                }
+            }
+        },
+        "(20, 70)": {
+            "pair": [
+                20,
+                70
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -113.28097406687297,
+                    "x": 50.361820445923875
+                },
+                "b": {
+                    "y": -95.68304439827779,
+                    "x": 56.320826140487135
+                }
+            }
+        },
+        "(34, 57)": {
+            "pair": [
+                34,
+                57
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 14.1418311931386,
+                    "x": 23.101256458892795
+                },
+                "b": {
+                    "y": 7.484926226349032,
+                    "x": 10.626030220536556
+                }
+            }
+        },
+        "(67, 80)": {
+            "pair": [
+                67,
+                80
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 20.62302600305273,
+                    "x": -28.68282933289603
+                },
+                "b": {
+                    "y": 43.420599947362405,
+                    "x": -31.989227471326004
+                }
+            }
+        },
+        "(38, 76)": {
+            "pair": [
+                38,
+                76
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -36.7614866342948,
+                    "x": 85.02595667284241
+                },
+                "b": {
+                    "y": -26.725060288124805,
+                    "x": 69.68636001560762
+                }
+            }
+        },
+        "(51, 84)": {
+            "pair": [
+                51,
+                84
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 37.52732636828074,
+                    "x": -101.40581316934183
+                },
+                "b": {
+                    "y": 40.997670201779954,
+                    "x": -107.04355958379851
+                }
+            }
+        },
+        "(27, 67)": {
+            "pair": [
+                27,
+                67
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 33.99046028113579,
+                    "x": -1.9016803279745476
+                },
+                "b": {
+                    "y": 49.10119016429839,
+                    "x": -11.68619382882184
+                }
+            }
+        },
+        "(57, 92)": {
+            "pair": [
+                57,
+                92
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 7.484926226349032,
+                    "x": 10.626030220536556
+                },
+                "b": {
+                    "y": 8.533100103788257,
+                    "x": 3.6670605921034327
+                }
+            }
+        },
+        "(58, 82)": {
+            "pair": [
+                58,
+                82
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -93.656849225389,
+                    "x": -11.711774002575238
+                },
+                "b": {
+                    "y": -87.0074851824707,
+                    "x": -2.490401187911121
+                }
+            }
+        },
+        "(40, 57)": {
+            "pair": [
+                40,
+                57
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 38.87541691762874,
+                    "x": 17.160344394321587
+                },
+                "b": {
+                    "y": 19.728700849467714,
+                    "x": 25.36805539172371
+                }
+            }
+        },
+        "(45, 65)": {
+            "pair": [
+                45,
+                65
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -41.14127629535385,
+                    "x": -5.755888724615836
+                },
+                "b": {
+                    "y": -28.801420620629177,
+                    "x": -14.243197138770734
+                }
+            }
+        },
+        "(36, 39)": {
+            "pair": [
+                36,
+                39
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 17.631659505843345,
+                    "x": 74.62021248588528
+                },
+                "b": {
+                    "y": 26.00185180197603,
+                    "x": 90.81651153578039
+                }
+            }
+        },
+        "(26, 59)": {
+            "pair": [
+                26,
+                59
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 25.859476005210958,
+                    "x": -65.25486290626507
+                },
+                "b": {
+                    "y": 11.930864665447778,
+                    "x": -80.49437377917731
+                }
+            }
+        },
+        "(49, 73)": {
+            "pair": [
+                49,
+                73
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -10.798303040134897,
+                    "x": -93.18414914068653
+                },
+                "b": {
+                    "y": -27.08623343039514,
+                    "x": -83.88949149616685
+                }
+            }
+        },
+        "(8, 78)": {
+            "pair": [
+                8,
+                78
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 111.69969479344093,
+                    "x": -46.26752849637861
+                },
+                "b": {
+                    "y": 102.23342227150613,
+                    "x": -47.8550617802115
+                }
+            }
+        },
+        "(4, 5)": {
+            "pair": [
+                4,
+                5
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 111.76181062657281,
+                    "x": 46.29325771689995
+                },
+                "b": {
+                    "y": 114.49695187959418,
+                    "x": 47.426190318907544
+                }
+            }
+        },
+        "(36, 50)": {
+            "pair": [
+                36,
+                50
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 26.00185180197603,
+                    "x": 90.81651153578039
+                },
+                "b": {
+                    "y": 41.382690674293215,
+                    "x": 89.26720434177477
+                }
+            }
+        },
+        "(35, 65)": {
+            "pair": [
+                35,
+                65
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -24.791271261706278,
+                    "x": 18.22783648339275
+                },
+                "b": {
+                    "y": -39.7508770655826,
+                    "x": 12.058491707186871
+                }
+            }
+        },
+        "(3, 85)": {
+            "pair": [
+                3,
+                85
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 75.91139249346818,
+                    "x": 97.96225206643825
+                },
+                "b": {
+                    "y": 74.41415026386227,
+                    "x": 89.99823136385415
+                }
+            }
+        },
+        "(14, 64)": {
+            "pair": [
+                14,
+                64
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -69.44363087846378,
+                    "x": -97.33909357154764
+                },
+                "b": {
+                    "y": -73.58859387152614,
+                    "x": -99.74459813669472
+                }
+            }
+        },
+        "(27, 40)": {
+            "pair": [
+                27,
+                40
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 54.05323957623889,
+                    "x": 23.356816155808872
+                },
+                "b": {
+                    "y": 38.87541691762874,
+                    "x": 17.160344394321587
+                }
+            }
+        },
+        "(39, 61)": {
+            "pair": [
+                39,
+                61
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 5.4596251042114545,
+                    "x": 99.95210961206125
+                },
+                "b": {
+                    "y": -6.061837970135318,
+                    "x": 88.80534720704978
+                }
+            }
+        },
+        "(58, 77)": {
+            "pair": [
+                58,
+                77
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -94.29121549693716,
+                    "x": 23.445905150664764
+                },
+                "b": {
+                    "y": -87.0074851824707,
+                    "x": -2.490401187911121
+                }
+            }
+        },
+        "(35, 46)": {
+            "pair": [
+                35,
+                46
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -39.7508770655826,
+                    "x": 12.058491707186871
+                },
+                "b": {
+                    "y": -53.789408954489005,
+                    "x": 18.00648334011262
+                }
+            }
+        },
+        "(17, 18)": {
+            "pair": [
+                17,
+                18
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -118.02930805039983,
+                    "x": -15.538853193347272
+                },
+                "b": {
+                    "y": -122.87036414306675,
+                    "x": -16.17619031890755
+                }
+            }
+        },
+        "(41, 45)": {
+            "pair": [
+                41,
+                45
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -59.830022994376336,
+                    "x": -27.502961362506365
+                },
+                "b": {
+                    "y": -54.4467055423947,
+                    "x": -36.28453976329673
+                }
+            }
+        },
+        "(14, 49)": {
+            "pair": [
+                14,
+                49
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -44.2476569662407,
+                    "x": -106.82329355113075
+                },
+                "b": {
+                    "y": -44.74812375245335,
+                    "x": -105.1865303635675
+                }
+            }
+        },
+        "(26, 84)": {
+            "pair": [
+                26,
+                84
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 18.733849912776435,
+                    "x": -96.53873039574655
+                },
+                "b": {
+                    "y": 37.52732636828074,
+                    "x": -101.40581316934183
+                }
+            }
+        },
+        "(52, 67)": {
+            "pair": [
+                52,
+                67
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 48.9943273770506,
+                    "x": -27.581628380464416
+                },
+                "b": {
+                    "y": 49.10119016429839,
+                    "x": -11.68619382882184
+                }
+            }
+        },
+        "(49, 71)": {
+            "pair": [
+                49,
+                71
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -40.02796099861722,
+                    "x": -89.47143590726861
+                },
+                "b": {
+                    "y": -44.74812375245335,
+                    "x": -105.1865303635675
+                }
+            }
+        },
+        "(45, 68)": {
+            "pair": [
+                45,
+                68
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -38.943641844210696,
+                    "x": -37.49972009763637
+                },
+                "b": {
+                    "y": -54.4467055423947,
+                    "x": -36.28453976329673
+                }
+            }
+        },
+        "(61, 63)": {
+            "pair": [
+                61,
+                63
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 5.4596251042114545,
+                    "x": 99.95210961206125
+                },
+                "b": {
+                    "y": 1.9805083552969087,
+                    "x": 114.53891484470817
+                }
+            }
+        },
+        "(10, 51)": {
+            "pair": [
+                10,
+                51
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 69.38759346949311,
+                    "x": -95.82353865036553
+                },
+                "b": {
+                    "y": 45.69358780261267,
+                    "x": -110.31407938655339
+                }
+            }
+        },
+        "(35, 75)": {
+            "pair": [
+                35,
+                75
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -52.03115296761028,
+                    "x": 35.32901284152921
+                },
+                "b": {
+                    "y": -37.199800897989405,
+                    "x": 44.20950266169822
+                }
+            }
+        },
+        "(28, 66)": {
+            "pair": [
+                28,
+                66
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -8.19367793905662,
+                    "x": 68.84250774030103
+                },
+                "b": {
+                    "y": -3.678394451951914,
+                    "x": 48.59413346925156
+                }
+            }
+        },
+        "(36, 55)": {
+            "pair": [
+                36,
+                55
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 44.082157496169465,
+                    "x": 63.41637609435601
+                },
+                "b": {
+                    "y": 45.27331677002354,
+                    "x": 84.52839202865701
+                }
+            }
+        },
+        "(43, 52)": {
+            "pair": [
+                43,
+                52
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 75.71939542866076,
+                    "x": -0.7236210027584852
+                },
+                "b": {
+                    "y": 65.55168599252426,
+                    "x": 2.320405549187414
+                }
+            }
+        },
+        "(49, 89)": {
+            "pair": [
+                49,
+                89
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -40.02796099861722,
+                    "x": -89.47143590726861
+                },
+                "b": {
+                    "y": -27.08623343039514,
+                    "x": -83.88949149616685
+                }
+            }
+        },
+        "(76, 87)": {
+            "pair": [
+                76,
+                87
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -19.2733614060802,
+                    "x": 95.4717166050143
+                },
+                "b": {
+                    "y": -34.624978459459946,
+                    "x": 89.00514446237631
+                }
+            }
+        },
+        "(19, 58)": {
+            "pair": [
+                19,
+                58
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -108.70171081467124,
+                    "x": 24.110121991006018
+                },
+                "b": {
+                    "y": -119.7085043456195,
+                    "x": 15.759923579552456
+                }
+            }
+        },
+        "(7, 8)": {
+            "pair": [
+                7,
+                8
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 111.69969479344093,
+                    "x": -46.26752849637861
+                },
+                "b": {
+                    "y": 114.49695187959418,
+                    "x": -47.42619031890754
+                }
+            }
+        },
+        "(39, 66)": {
+            "pair": [
+                39,
+                66
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -3.0816434881492754,
+                    "x": 75.94988478290108
+                },
+                "b": {
+                    "y": 17.631659505843345,
+                    "x": 74.62021248588528
+                }
+            }
+        },
+        "(29, 59)": {
+            "pair": [
+                29,
+                59
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 11.930864665447778,
+                    "x": -80.49437377917731
+                },
+                "b": {
+                    "y": 1.0998846859366935,
+                    "x": -80.3341514590532
+                }
+            }
+        },
+        "(44, 66)": {
+            "pair": [
+                44,
+                66
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 25.227490195205718,
+                    "x": 56.109085368865415
+                },
+                "b": {
+                    "y": -3.678394451951914,
+                    "x": 48.59413346925156
+                }
+            }
+        },
+        "(7, 78)": {
+            "pair": [
+                7,
+                78
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 117.19070585356951,
+                    "x": -15.428449119652285
+                },
+                "b": {
+                    "y": 111.69969479344093,
+                    "x": -46.26752849637861
+                }
+            }
+        },
+        "(25, 75)": {
+            "pair": [
+                25,
+                75
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -65.05977573602945,
+                    "x": 62.73758360211195
+                },
+                "b": {
+                    "y": -66.92013333014793,
+                    "x": 60.68011977200888
+                }
+            }
+        },
+        "(22, 88)": {
+            "pair": [
+                22,
+                88
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.47570920886204,
+                    "x": 94.60287261806342
+                },
+                "b": {
+                    "y": -72.16128802477613,
+                    "x": 94.04242149079042
+                }
+            }
+        },
+        "(19, 70)": {
+            "pair": [
+                19,
+                70
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -115.99557611729908,
+                    "x": 43.808191359339354
+                },
+                "b": {
+                    "y": -108.70171081467124,
+                    "x": 24.110121991006018
+                }
+            }
+        },
+        "(68, 81)": {
+            "pair": [
+                68,
+                81
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -32.74693066547184,
+                    "x": -42.82388313402605
+                },
+                "b": {
+                    "y": -38.943641844210696,
+                    "x": -37.49972009763637
+                }
+            }
+        },
+        "(24, 59)": {
+            "pair": [
+                24,
+                59
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -4.5714849510098325,
+                    "x": -51.86276554005102
+                },
+                "b": {
+                    "y": 16.65085995252244,
+                    "x": -53.52338715209052
+                }
+            }
+        },
+        "(46, 82)": {
+            "pair": [
+                46,
+                82
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.77721187869854,
+                    "x": 2.322658837853503
+                },
+                "b": {
+                    "y": -57.17386075228363,
+                    "x": -11.895201624591747
+                }
+            }
+        },
+        "(32, 81)": {
+            "pair": [
+                32,
+                81
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -4.986173301794082,
+                    "x": -28.321577648663734
+                },
+                "b": {
+                    "y": -14.14201190314083,
+                    "x": -12.439614662534055
+                }
+            }
+        },
+        "(46, 65)": {
+            "pair": [
+                46,
+                65
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -39.7508770655826,
+                    "x": 12.058491707186871
+                },
+                "b": {
+                    "y": -41.14127629535385,
+                    "x": -5.755888724615836
+                }
+            }
+        },
+        "(72, 85)": {
+            "pair": [
+                72,
+                85
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 74.41415026386227,
+                    "x": 89.99823136385415
+                },
+                "b": {
+                    "y": 68.54744083276272,
+                    "x": 82.59522296673536
+                }
+            }
+        },
+        "(75, 88)": {
+            "pair": [
+                75,
+                88
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -65.05977573602945,
+                    "x": 62.73758360211195
+                },
+                "b": {
+                    "y": -55.69434222481244,
+                    "x": 64.2918021767927
+                }
+            }
+        },
+        "(70, 77)": {
+            "pair": [
+                70,
+                77
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -84.27912831033144,
+                    "x": 31.6451391527345
+                },
+                "b": {
+                    "y": -94.29121549693716,
+                    "x": 23.445905150664764
+                }
+            }
+        },
+        "(34, 91)": {
+            "pair": [
+                34,
+                91
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -20.41269817838414,
+                    "x": 18.167253881915382
+                },
+                "b": {
+                    "y": -5.041783156609398,
+                    "x": 42.204748239307996
+                }
+            }
+        },
+        "(35, 91)": {
+            "pair": [
+                35,
+                91
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -24.791271261706278,
+                    "x": 18.22783648339275
+                },
+                "b": {
+                    "y": -37.199800897989405,
+                    "x": 44.20950266169822
+                }
+            }
+        },
+        "(42, 73)": {
+            "pair": [
+                42,
+                73
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -9.255916433943039,
+                    "x": -65.41198357053995
+                },
+                "b": {
+                    "y": -23.836671979929406,
+                    "x": -68.42351367951262
+                }
+            }
+        },
+        "(22, 62)": {
+            "pair": [
+                22,
+                62
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.47570920886204,
+                    "x": 94.60287261806342
+                },
+                "b": {
+                    "y": -53.42472838838982,
+                    "x": 112.0122760568033
+                }
+            }
+        },
+        "(6, 83)": {
+            "pair": [
+                6,
+                83
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 112.55325751411641,
+                    "x": -10.062699276539194
+                },
+                "b": {
+                    "y": 123.96448651548691,
+                    "x": 7.865505808772709
+                }
+            }
+        },
+        "(29, 49)": {
+            "pair": [
+                29,
+                49
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -10.798303040134897,
+                    "x": -93.18414914068653
+                },
+                "b": {
+                    "y": -10.693161252267572,
+                    "x": -97.81000224921686
+                }
+            }
+        },
+        "(35, 86)": {
+            "pair": [
+                35,
+                86
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -52.03115296761028,
+                    "x": 35.32901284152921
+                },
+                "b": {
+                    "y": -53.789408954489005,
+                    "x": 18.00648334011262
+                }
+            }
+        },
+        "(81, 92)": {
+            "pair": [
+                81,
+                92
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -17.367705119734296,
+                    "x": -11.1181012593198
+                },
+                "b": {
+                    "y": -14.14201190314083,
+                    "x": -12.439614662534055
+                }
+            }
+        },
+        "(45, 81)": {
+            "pair": [
+                45,
+                81
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -28.801420620629177,
+                    "x": -14.243197138770734
+                },
+                "b": {
+                    "y": -38.943641844210696,
+                    "x": -37.49972009763637
+                }
+            }
+        },
+        "(12, 90)": {
+            "pair": [
+                12,
+                90
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 6.9729140169421555,
+                    "x": -114.79116541355431
+                },
+                "b": {
+                    "y": -6.023646722578093,
+                    "x": -124.20697186438848
+                }
+            }
+        },
+        "(2, 85)": {
+            "pair": [
+                2,
+                85
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 72.69587244623523,
+                    "x": 100.42960737906746
+                },
+                "b": {
+                    "y": 51.37402681303291,
+                    "x": 107.74588593398664
+                }
+            }
+        },
+        "(24, 80)": {
+            "pair": [
+                24,
+                80
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 20.62302600305273,
+                    "x": -28.68282933289603
+                },
+                "b": {
+                    "y": 16.65085995252244,
+                    "x": -53.52338715209052
+                }
+            }
+        },
+        "(5, 56)": {
+            "pair": [
+                5,
+                56
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 111.76181062657281,
+                    "x": 46.29325771689995
+                },
+                "b": {
+                    "y": 117.29956387521412,
+                    "x": 22.148165613998408
+                }
+            }
+        },
+        "(28, 38)": {
+            "pair": [
+                28,
+                38
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -35.54841999471876,
+                    "x": 48.67864000482291
+                },
+                "b": {
+                    "y": -26.725060288124805,
+                    "x": 69.68636001560762
+                }
+            }
+        },
+        "(24, 67)": {
+            "pair": [
+                24,
+                67
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 20.62302600305273,
+                    "x": -28.68282933289603
+                },
+                "b": {
+                    "y": 17.6380060754037,
+                    "x": -25.3851432449336
+                }
+            }
+        },
+        "(52, 69)": {
+            "pair": [
+                52,
+                69
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 66.88199243920346,
+                    "x": -32.08039108105616
+                },
+                "b": {
+                    "y": 81.26796393067958,
+                    "x": -20.71637276125124
+                }
+            }
+        },
+        "(77, 82)": {
+            "pair": [
+                77,
+                82
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.77721187869854,
+                    "x": 2.322658837853503
+                },
+                "b": {
+                    "y": -87.0074851824707,
+                    "x": -2.490401187911121
+                }
+            }
+        },
+        "(50, 85)": {
+            "pair": [
+                50,
+                85
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 51.37402681303291,
+                    "x": 107.74588593398664
+                },
+                "b": {
+                    "y": 41.382690674293215,
+                    "x": 89.26720434177477
+                }
+            }
+        },
+        "(11, 51)": {
+            "pair": [
+                11,
+                51
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 40.997670201779954,
+                    "x": -107.04355958379851
+                },
+                "b": {
+                    "y": 45.69358780261267,
+                    "x": -110.31407938655339
+                }
+            }
+        },
+        "(1, 63)": {
+            "pair": [
+                1,
+                63
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 26.902378781586975,
+                    "x": 114.35540975423125
+                },
+                "b": {
+                    "y": 21.26168497717046,
+                    "x": 122.20084606983909
+                }
+            }
+        },
+        "(53, 79)": {
+            "pair": [
+                53,
+                79
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 66.23318440024903,
+                    "x": 57.089024935841685
+                },
+                "b": {
+                    "y": 67.4175978918032,
+                    "x": 38.61708167270106
+                }
+            }
+        },
+        "(37, 74)": {
+            "pair": [
+                37,
+                74
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 68.76824151191742,
+                    "x": -59.93322668041523
+                },
+                "b": {
+                    "y": 66.55814744179756,
+                    "x": -60.98596265480898
+                }
+            }
+        },
+        "(34, 92)": {
+            "pair": [
+                34,
+                92
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -20.41269817838414,
+                    "x": 18.167253881915382
+                },
+                "b": {
+                    "y": 7.484926226349032,
+                    "x": 10.626030220536556
+                }
+            }
+        },
+        "(26, 33)": {
+            "pair": [
+                26,
+                33
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 27.863841330349942,
+                    "x": -65.32560283972866
+                },
+                "b": {
+                    "y": 42.49825602512796,
+                    "x": -80.77575569467692
+                }
+            }
+        },
+        "(31, 83)": {
+            "pair": [
+                31,
+                83
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 112.55325751411641,
+                    "x": -10.062699276539194
+                },
+                "b": {
+                    "y": 92.14382703473181,
+                    "x": 11.213701038713591
+                }
+            }
+        },
+        "(36, 79)": {
+            "pair": [
+                36,
+                79
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 28.765697906484853,
+                    "x": 53.897018854911295
+                },
+                "b": {
+                    "y": 44.082157496169465,
+                    "x": 63.41637609435601
+                }
+            }
+        },
+        "(53, 55)": {
+            "pair": [
+                53,
+                55
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 69.85693065027533,
+                    "x": 61.833719562528614
+                },
+                "b": {
+                    "y": 66.23318440024903,
+                    "x": 57.089024935841685
+                }
+            }
+        },
+        "(44, 57)": {
+            "pair": [
+                44,
+                57
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 14.1418311931386,
+                    "x": 23.101256458892795
+                },
+                "b": {
+                    "y": 19.728700849467714,
+                    "x": 25.36805539172371
+                }
+            }
+        },
+        "(42, 89)": {
+            "pair": [
+                42,
+                89
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -32.97846472692403,
+                    "x": -60.29221098710145
+                },
+                "b": {
+                    "y": -23.836671979929406,
+                    "x": -68.42351367951262
+                }
+            }
+        },
+        "(5, 83)": {
+            "pair": [
+                5,
+                83
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 122.35230367885598,
+                    "x": 20.111250220576995
+                },
+                "b": {
+                    "y": 117.29956387521412,
+                    "x": 22.148165613998408
+                }
+            }
+        },
+        "(50, 63)": {
+            "pair": [
+                50,
+                63
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 26.902378781586975,
+                    "x": 114.35540975423125
+                },
+                "b": {
+                    "y": 24.11869609757042,
+                    "x": 93.73539382896918
+                }
+            }
+        },
+        "(4, 53)": {
+            "pair": [
+                4,
+                53
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 95.05114570608657,
+                    "x": 63.97684247449634
+                },
+                "b": {
+                    "y": 102.7904532976738,
+                    "x": 47.40051829973793
+                }
+            }
+        },
+        "(43, 79)": {
+            "pair": [
+                43,
+                79
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 56.08396279197975,
+                    "x": 29.14989241690809
+                },
+                "b": {
+                    "y": 67.4175978918032,
+                    "x": 38.61708167270106
+                }
+            }
+        },
+        "(8, 48)": {
+            "pair": [
+                8,
+                48
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 102.23342227150613,
+                    "x": -47.8550617802115
+                },
+                "b": {
+                    "y": 99.2410290928649,
+                    "x": -74.24485782642253
+                }
+            }
+        },
+        "(0, 61)": {
+            "pair": [
+                0,
+                61
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 1.9805083552969087,
+                    "x": 114.53891484470817
+                },
+                "b": {
+                    "y": -15.686198183263652,
+                    "x": 120.28524506430722
+                }
+            }
+        },
+        "(1, 50)": {
+            "pair": [
+                1,
+                50
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 26.902378781586975,
+                    "x": 114.35540975423125
+                },
+                "b": {
+                    "y": 39.393415491141525,
+                    "x": 117.82423615674408
+                }
+            }
+        },
+        "(20, 54)": {
+            "pair": [
+                20,
+                54
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -95.68304439827779,
+                    "x": 56.320826140487135
+                },
+                "b": {
+                    "y": -93.50155263760375,
+                    "x": 61.01765517014121
+                }
+            }
+        },
+        "(54, 77)": {
+            "pair": [
+                54,
+                77
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -84.27912831033144,
+                    "x": 31.6451391527345
+                },
+                "b": {
+                    "y": -82.45068850215011,
+                    "x": 31.669475830612903
+                }
+            }
+        },
+        "(2, 50)": {
+            "pair": [
+                2,
+                50
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 51.37402681303291,
+                    "x": 107.74588593398664
+                },
+                "b": {
+                    "y": 50.82184335888815,
+                    "x": 113.09042633732079
+                }
+            }
+        },
+        "(18, 47)": {
+            "pair": [
+                18,
+                47
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -118.02930805039983,
+                    "x": -15.538853193347272
+                },
+                "b": {
+                    "y": -110.83978826600345,
+                    "x": -10.604772210437476
+                }
+            }
+        },
+        "(65, 91)": {
+            "pair": [
+                65,
+                91
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -24.791271261706278,
+                    "x": 18.22783648339275
+                },
+                "b": {
+                    "y": -21.97210242501892,
+                    "x": 17.563253511341152
+                }
+            }
+        },
+        "(18, 58)": {
+            "pair": [
+                18,
+                58
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -110.83978826600345,
+                    "x": -10.604772210437476
+                },
+                "b": {
+                    "y": -119.7085043456195,
+                    "x": 15.759923579552456
+                }
+            }
+        },
+        "(61, 87)": {
+            "pair": [
+                61,
+                87
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -19.2733614060802,
+                    "x": 95.4717166050143
+                },
+                "b": {
+                    "y": -15.686198183263652,
+                    "x": 120.28524506430722
+                }
+            }
+        },
+        "(27, 43)": {
+            "pair": [
+                27,
+                43
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 54.05323957623889,
+                    "x": 23.356816155808872
+                },
+                "b": {
+                    "y": 65.55168599252426,
+                    "x": 2.320405549187414
+                }
+            }
+        },
+        "(41, 68)": {
+            "pair": [
+                41,
+                68
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -62.68974705573706,
+                    "x": -50.23329637752958
+                },
+                "b": {
+                    "y": -54.4467055423947,
+                    "x": -36.28453976329673
+                }
+            }
+        },
+        "(48, 78)": {
+            "pair": [
+                48,
+                78
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 102.23342227150613,
+                    "x": -47.8550617802115
+                },
+                "b": {
+                    "y": 97.41703313880124,
+                    "x": -45.610908964487855
+                }
+            }
+        },
+        "(28, 44)": {
+            "pair": [
+                28,
+                44
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -3.678394451951914,
+                    "x": 48.59413346925156
+                },
+                "b": {
+                    "y": -5.450965065432655,
+                    "x": 45.217160636763545
+                }
+            }
+        },
+        "(25, 88)": {
+            "pair": [
+                25,
+                88
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -65.05977573602945,
+                    "x": 62.73758360211195
+                },
+                "b": {
+                    "y": -73.72723609152857,
+                    "x": 89.07638966167832
+                }
+            }
+        },
+        "(46, 86)": {
+            "pair": [
+                46,
+                86
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -63.25776780407197,
+                    "x": 13.272974668878794
+                },
+                "b": {
+                    "y": -53.789408954489005,
+                    "x": 18.00648334011262
+                }
+            }
+        },
+        "(68, 71)": {
+            "pair": [
+                68,
+                71
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -52.59537992246918,
+                    "x": -71.29389778291018
+                },
+                "b": {
+                    "y": -58.87610895649215,
+                    "x": -69.36297117036266
+                }
+            }
+        },
+        "(64, 71)": {
+            "pair": [
+                64,
+                71
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -69.44363087846378,
+                    "x": -97.33909357154764
+                },
+                "b": {
+                    "y": -63.65644146199928,
+                    "x": -72.96534228613746
+                }
+            }
+        },
+        "(43, 53)": {
+            "pair": [
+                43,
+                53
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 86.14641328920914,
+                    "x": 32.95061126942646
+                },
+                "b": {
+                    "y": 67.4175978918032,
+                    "x": 38.61708167270106
+                }
+            }
+        },
+        "(65, 81)": {
+            "pair": [
+                65,
+                81
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -17.367705119734296,
+                    "x": -11.1181012593198
+                },
+                "b": {
+                    "y": -28.801420620629177,
+                    "x": -14.243197138770734
+                }
+            }
+        },
+        "(53, 72)": {
+            "pair": [
+                53,
+                72
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 95.05114570608657,
+                    "x": 63.97684247449634
+                },
+                "b": {
+                    "y": 69.85693065027533,
+                    "x": 61.833719562528614
+                }
+            }
+        },
+        "(71, 89)": {
+            "pair": [
+                71,
+                89
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -40.02796099861722,
+                    "x": -89.47143590726861
+                },
+                "b": {
+                    "y": -52.59537992246918,
+                    "x": -71.29389778291018
+                }
+            }
+        },
+        "(59, 80)": {
+            "pair": [
+                59,
+                80
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 25.859476005210958,
+                    "x": -65.25486290626507
+                },
+                "b": {
+                    "y": 16.65085995252244,
+                    "x": -53.52338715209052
+                }
+            }
+        },
+        "(36, 85)": {
+            "pair": [
+                36,
+                85
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 41.382690674293215,
+                    "x": 89.26720434177477
+                },
+                "b": {
+                    "y": 45.27331677002354,
+                    "x": 84.52839202865701
+                }
+            }
+        },
+        "(55, 85)": {
+            "pair": [
+                55,
+                85
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 45.27331677002354,
+                    "x": 84.52839202865701
+                },
+                "b": {
+                    "y": 68.54744083276272,
+                    "x": 82.59522296673536
+                }
+            }
+        },
+        "(41, 60)": {
+            "pair": [
+                41,
+                60
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -62.68974705573706,
+                    "x": -50.23329637752958
+                },
+                "b": {
+                    "y": -84.48025228572467,
+                    "x": -49.663737122793265
+                }
+            }
+        },
+        "(26, 80)": {
+            "pair": [
+                26,
+                80
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 25.859476005210958,
+                    "x": -65.25486290626507
+                },
+                "b": {
+                    "y": 27.863841330349942,
+                    "x": -65.32560283972866
+                }
+            }
+        },
+        "(43, 56)": {
+            "pair": [
+                43,
+                56
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 86.14641328920914,
+                    "x": 32.95061126942646
+                },
+                "b": {
+                    "y": 92.68466554673549,
+                    "x": 13.216309301263854
+                }
+            }
+        },
+        "(27, 52)": {
+            "pair": [
+                27,
+                52
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 49.10119016429839,
+                    "x": -11.68619382882184
+                },
+                "b": {
+                    "y": 65.55168599252426,
+                    "x": 2.320405549187414
+                }
+            }
+        },
+        "(62, 88)": {
+            "pair": [
+                62,
+                88
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.47570920886204,
+                    "x": 94.60287261806342
+                },
+                "b": {
+                    "y": -42.617274006900004,
+                    "x": 83.26446209226665
+                }
+            }
+        },
+        "(48, 74)": {
+            "pair": [
+                48,
+                74
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 68.76824151191742,
+                    "x": -59.93322668041523
+                },
+                "b": {
+                    "y": 88.72038391261928,
+                    "x": -76.07742112068271
+                }
+            }
+        },
+        "(16, 17)": {
+            "pair": [
+                16,
+                17
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -113.95111924494766,
+                    "x": -47.20009903885115
+                },
+                "b": {
+                    "y": -114.49695187959416,
+                    "x": -47.42619031890757
+                }
+            }
+        },
+        "(31, 43)": {
+            "pair": [
+                31,
+                43
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 75.71939542866076,
+                    "x": -0.7236210027584852
+                },
+                "b": {
+                    "y": 92.14382703473181,
+                    "x": 11.213701038713591
+                }
+            }
+        },
+        "(56, 83)": {
+            "pair": [
+                56,
+                83
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 117.29956387521412,
+                    "x": 22.148165613998408
+                },
+                "b": {
+                    "y": 92.68466554673549,
+                    "x": 13.216309301263854
+                }
+            }
+        },
+        "(28, 76)": {
+            "pair": [
+                28,
+                76
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -8.19367793905662,
+                    "x": 68.84250774030103
+                },
+                "b": {
+                    "y": -26.725060288124805,
+                    "x": 69.68636001560762
+                }
+            }
+        },
+        "(41, 47)": {
+            "pair": [
+                41,
+                47
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -91.86484094872075,
+                    "x": -40.85167248615926
+                },
+                "b": {
+                    "y": -87.14336543764836,
+                    "x": -24.412888589176948
+                }
+            }
+        },
+        "(38, 75)": {
+            "pair": [
+                38,
+                75
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -55.69434222481244,
+                    "x": 64.2918021767927
+                },
+                "b": {
+                    "y": -35.54841999471876,
+                    "x": 48.67864000482291
+                }
+            }
+        },
+        "(29, 84)": {
+            "pair": [
+                29,
+                84
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 18.733849912776435,
+                    "x": -96.53873039574655
+                },
+                "b": {
+                    "y": 6.739000556275002,
+                    "x": -111.75838041679135
+                }
+            }
+        },
+        "(23, 87)": {
+            "pair": [
+                23,
+                87
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -43.685031920505544,
+                    "x": 113.69325049043933
+                },
+                "b": {
+                    "y": -15.873710999794298,
+                    "x": 120.57280561089776
+                }
+            }
+        },
+        "(75, 86)": {
+            "pair": [
+                75,
+                86
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -52.03115296761028,
+                    "x": 35.32901284152921
+                },
+                "b": {
+                    "y": -67.0353451390234,
+                    "x": 43.451659516467856
+                }
+            }
+        },
+        "(3, 72)": {
+            "pair": [
+                3,
+                72
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 74.41415026386227,
+                    "x": 89.99823136385415
+                },
+                "b": {
+                    "y": 93.71835376972422,
+                    "x": 81.44214843350346
+                }
+            }
+        },
+        "(42, 59)": {
+            "pair": [
+                42,
+                59
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -4.5714849510098325,
+                    "x": -51.86276554005102
+                },
+                "b": {
+                    "y": -9.255916433943039,
+                    "x": -65.41198357053995
+                }
+            }
+        },
+        "(75, 91)": {
+            "pair": [
+                75,
+                91
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -37.199800897989405,
+                    "x": 44.20950266169822
+                },
+                "b": {
+                    "y": -35.496848774685986,
+                    "x": 48.46287030694642
+                }
+            }
+        },
+        "(65, 92)": {
+            "pair": [
+                65,
+                92
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -17.367705119734296,
+                    "x": -11.1181012593198
+                },
+                "b": {
+                    "y": -21.97210242501892,
+                    "x": 17.563253511341152
+                }
+            }
+        },
+        "(54, 75)": {
+            "pair": [
+                54,
+                75
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.0353451390234,
+                    "x": 43.451659516467856
+                },
+                "b": {
+                    "y": -66.92013333014793,
+                    "x": 60.68011977200888
+                }
+            }
+        },
+        "(60, 71)": {
+            "pair": [
+                60,
+                71
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -63.65644146199928,
+                    "x": -72.96534228613746
+                },
+                "b": {
+                    "y": -58.87610895649215,
+                    "x": -69.36297117036266
+                }
+            }
+        },
+        "(57, 67)": {
+            "pair": [
+                57,
+                67
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 19.34133190106605,
+                    "x": -7.045207050493804
+                },
+                "b": {
+                    "y": 33.99046028113579,
+                    "x": -1.9016803279745476
+                }
+            }
+        },
+        "(33, 80)": {
+            "pair": [
+                33,
+                80
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 27.863841330349942,
+                    "x": -65.32560283972866
+                },
+                "b": {
+                    "y": 43.42564309609706,
+                    "x": -52.51282462490847
+                }
+            }
+        },
+        "(37, 67)": {
+            "pair": [
+                37,
+                67
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 48.9943273770506,
+                    "x": -27.581628380464416
+                },
+                "b": {
+                    "y": 43.420599947362405,
+                    "x": -31.989227471326004
+                }
+            }
+        },
+        "(23, 62)": {
+            "pair": [
+                23,
+                62
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -43.685031920505544,
+                    "x": 113.69325049043933
+                },
+                "b": {
+                    "y": -45.62415589895477,
+                    "x": 115.24337897620174
+                }
+            }
+        },
+        "(30, 47)": {
+            "pair": [
+                30,
+                47
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -91.86484094872075,
+                    "x": -40.85167248615926
+                },
+                "b": {
+                    "y": -113.35137890920959,
+                    "x": -46.62128262267738
+                }
+            }
+        },
+        "(37, 80)": {
+            "pair": [
+                37,
+                80
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 43.420599947362405,
+                    "x": -31.989227471326004
+                },
+                "b": {
+                    "y": 43.42564309609706,
+                    "x": -52.51282462490847
+                }
+            }
+        },
+        "(24, 81)": {
+            "pair": [
+                24,
+                81
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -10.76358152789254,
+                    "x": -40.940069392256554
+                },
+                "b": {
+                    "y": -4.986173301794082,
+                    "x": -28.321577648663734
+                }
+            }
+        },
+        "(16, 30)": {
+            "pair": [
+                16,
+                30
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -100.08103735056244,
+                    "x": -73.15013775159501
+                },
+                "b": {
+                    "y": -113.95111924494766,
+                    "x": -47.20009903885115
+                }
+            }
+        },
+        "(40, 43)": {
+            "pair": [
+                40,
+                43
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 54.05323957623889,
+                    "x": 23.356816155808872
+                },
+                "b": {
+                    "y": 56.08396279197975,
+                    "x": 29.14989241690809
+                }
+            }
+        },
+        "(36, 44)": {
+            "pair": [
+                36,
+                44
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 28.765697906484853,
+                    "x": 53.897018854911295
+                },
+                "b": {
+                    "y": 25.227490195205718,
+                    "x": 56.109085368865415
+                }
+            }
+        },
+        "(68, 89)": {
+            "pair": [
+                68,
+                89
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -52.59537992246918,
+                    "x": -71.29389778291018
+                },
+                "b": {
+                    "y": -32.97846472692403,
+                    "x": -60.29221098710145
+                }
+            }
+        },
+        "(34, 44)": {
+            "pair": [
+                34,
+                44
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 14.1418311931386,
+                    "x": 23.101256458892795
+                },
+                "b": {
+                    "y": -5.041783156609398,
+                    "x": 42.204748239307996
+                }
+            }
+        },
+        "(0, 63)": {
+            "pair": [
+                0,
+                63
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 11.662289458821661,
+                    "x": 123.46463046515896
+                },
+                "b": {
+                    "y": 1.9805083552969087,
+                    "x": 114.53891484470817
+                }
+            }
+        },
+        "(31, 52)": {
+            "pair": [
+                31,
+                52
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 75.71939542866076,
+                    "x": -0.7236210027584852
+                },
+                "b": {
+                    "y": 81.26796393067958,
+                    "x": -20.71637276125124
+                }
+            }
+        },
+        "(26, 51)": {
+            "pair": [
+                26,
+                51
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 42.49825602512796,
+                    "x": -80.77575569467692
+                },
+                "b": {
+                    "y": 37.52732636828074,
+                    "x": -101.40581316934183
+                }
+            }
+        },
+        "(47, 58)": {
+            "pair": [
+                47,
+                58
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -93.656849225389,
+                    "x": -11.711774002575238
+                },
+                "b": {
+                    "y": -110.83978826600345,
+                    "x": -10.604772210437476
+                }
+            }
+        },
+        "(6, 78)": {
+            "pair": [
+                6,
+                78
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 117.19070585356951,
+                    "x": -15.428449119652285
+                },
+                "b": {
+                    "y": 113.126990827912,
+                    "x": -12.311857753079979
+                }
+            }
+        },
+        "(62, 76)": {
+            "pair": [
+                62,
+                76
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -36.7614866342948,
+                    "x": 85.02595667284241
+                },
+                "b": {
+                    "y": -34.624978459459946,
+                    "x": 89.00514446237631
+                }
+            }
+        },
+        "(60, 68)": {
+            "pair": [
+                60,
+                68
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -62.68974705573706,
+                    "x": -50.23329637752958
+                },
+                "b": {
+                    "y": -58.87610895649215,
+                    "x": -69.36297117036266
+                }
+            }
+        },
+        "(30, 64)": {
+            "pair": [
+                30,
+                64
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -92.87956653837566,
+                    "x": -74.10157676881127
+                },
+                "b": {
+                    "y": -89.47597014830376,
+                    "x": -71.4991499200015
+                }
+            }
+        },
+        "(45, 46)": {
+            "pair": [
+                45,
+                46
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -41.14127629535385,
+                    "x": -5.755888724615836
+                },
+                "b": {
+                    "y": -57.17386075228363,
+                    "x": -11.895201624591747
+                }
+            }
+        },
+        "(55, 72)": {
+            "pair": [
+                55,
+                72
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 69.85693065027533,
+                    "x": 61.833719562528614
+                },
+                "b": {
+                    "y": 68.54744083276272,
+                    "x": 82.59522296673536
+                }
+            }
+        },
+        "(69, 78)": {
+            "pair": [
+                69,
+                78
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 87.3031681978862,
+                    "x": -23.116860300730046
+                },
+                "b": {
+                    "y": 97.41703313880124,
+                    "x": -45.610908964487855
+                }
+            }
+        },
+        "(33, 37)": {
+            "pair": [
+                33,
+                37
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 66.55814744179756,
+                    "x": -60.98596265480898
+                },
+                "b": {
+                    "y": 43.42564309609706,
+                    "x": -52.51282462490847
+                }
+            }
+        },
+        "(21, 22)": {
+            "pair": [
+                21,
+                22
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -72.16128802477613,
+                    "x": 94.04242149079042
+                },
+                "b": {
+                    "y": -75.44417382415928,
+                    "x": 98.32076156068662
+                }
+            }
+        },
+        "(41, 82)": {
+            "pair": [
+                41,
+                82
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -59.830022994376336,
+                    "x": -27.502961362506365
+                },
+                "b": {
+                    "y": -87.14336543764836,
+                    "x": -24.412888589176948
+                }
+            }
+        },
+        "(29, 90)": {
+            "pair": [
+                29,
+                90
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 6.739000556275002,
+                    "x": -111.75838041679135
+                },
+                "b": {
+                    "y": -10.693161252267572,
+                    "x": -97.81000224921686
+                }
+            }
+        },
+        "(43, 83)": {
+            "pair": [
+                43,
+                83
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 92.14382703473181,
+                    "x": 11.213701038713591
+                },
+                "b": {
+                    "y": 92.68466554673549,
+                    "x": 13.216309301263854
+                }
+            }
+        },
+        "(32, 92)": {
+            "pair": [
+                32,
+                92
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -14.14201190314083,
+                    "x": -12.439614662534055
+                },
+                "b": {
+                    "y": 8.533100103788257,
+                    "x": 3.6670605921034327
+                }
+            }
+        },
+        "(17, 47)": {
+            "pair": [
+                17,
+                47
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -118.02930805039983,
+                    "x": -15.538853193347272
+                },
+                "b": {
+                    "y": -113.35137890920959,
+                    "x": -46.62128262267738
+                }
+            }
+        },
+        "(10, 11)": {
+            "pair": [
+                10,
+                11
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 45.69358780261267,
+                    "x": -110.31407938655339
+                },
+                "b": {
+                    "y": 47.42619031890754,
+                    "x": -114.4969518795942
+                }
+            }
+        },
+        "(15, 64)": {
+            "pair": [
+                15,
+                64
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -92.87956653837566,
+                    "x": -74.10157676881127
+                },
+                "b": {
+                    "y": -84.46403551326725,
+                    "x": -91.39957825879654
+                }
+            }
+        },
+        "(27, 57)": {
+            "pair": [
+                27,
+                57
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 38.87541691762874,
+                    "x": 17.160344394321587
+                },
+                "b": {
+                    "y": 33.99046028113579,
+                    "x": -1.9016803279745476
+                }
+            }
+        },
+        "(39, 50)": {
+            "pair": [
+                39,
+                50
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 26.00185180197603,
+                    "x": 90.81651153578039
+                },
+                "b": {
+                    "y": 24.11869609757042,
+                    "x": 93.73539382896918
+                }
+            }
+        },
+        "(38, 62)": {
+            "pair": [
+                38,
+                62
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -36.7614866342948,
+                    "x": 85.02595667284241
+                },
+                "b": {
+                    "y": -42.617274006900004,
+                    "x": 83.26446209226665
+                }
+            }
+        },
+        "(33, 74)": {
+            "pair": [
+                33,
+                74
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 58.32302874578829,
+                    "x": -78.27291891795085
+                },
+                "b": {
+                    "y": 66.55814744179756,
+                    "x": -60.98596265480898
+                }
+            }
+        },
+        "(33, 51)": {
+            "pair": [
+                33,
+                51
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 42.49825602512796,
+                    "x": -80.77575569467692
+                },
+                "b": {
+                    "y": 58.32302874578829,
+                    "x": -78.27291891795085
+                }
+            }
+        },
+        "(39, 63)": {
+            "pair": [
+                39,
+                63
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 5.4596251042114545,
+                    "x": 99.95210961206125
+                },
+                "b": {
+                    "y": 24.11869609757042,
+                    "x": 93.73539382896918
+                }
+            }
+        },
+        "(47, 82)": {
+            "pair": [
+                47,
+                82
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -93.656849225389,
+                    "x": -11.711774002575238
+                },
+                "b": {
+                    "y": -87.14336543764836,
+                    "x": -24.412888589176948
+                }
+            }
+        },
+        "(4, 56)": {
+            "pair": [
+                4,
+                56
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 102.7904532976738,
+                    "x": 47.40051829973793
+                },
+                "b": {
+                    "y": 111.76181062657281,
+                    "x": 46.29325771689995
+                }
+            }
+        },
+        "(48, 69)": {
+            "pair": [
+                48,
+                69
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 72.06264461511518,
+                    "x": -53.2988375817844
+                },
+                "b": {
+                    "y": 97.41703313880124,
+                    "x": -45.610908964487855
+                }
+            }
+        },
+        "(73, 89)": {
+            "pair": [
+                73,
+                89
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -23.836671979929406,
+                    "x": -68.42351367951262
+                },
+                "b": {
+                    "y": -27.08623343039514,
+                    "x": -83.88949149616685
+                }
+            }
+        },
+        "(55, 79)": {
+            "pair": [
+                55,
+                79
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 44.082157496169465,
+                    "x": 63.41637609435601
+                },
+                "b": {
+                    "y": 66.23318440024903,
+                    "x": 57.089024935841685
+                }
+            }
+        },
+        "(10, 74)": {
+            "pair": [
+                10,
+                74
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 75.111244490731,
+                    "x": -97.88687960599981
+                },
+                "b": {
+                    "y": 69.38759346949311,
+                    "x": -95.82353865036553
+                }
+            }
+        },
+        "(53, 56)": {
+            "pair": [
+                53,
+                56
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 86.14641328920914,
+                    "x": 32.95061126942646
+                },
+                "b": {
+                    "y": 102.7904532976738,
+                    "x": 47.40051829973793
+                }
+            }
+        },
+        "(31, 78)": {
+            "pair": [
+                31,
+                78
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 113.126990827912,
+                    "x": -12.311857753079979
+                },
+                "b": {
+                    "y": 87.3031681978862,
+                    "x": -23.116860300730046
+                }
+            }
+        },
+        "(13, 49)": {
+            "pair": [
+                13,
+                49
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -24.1949451714283,
+                    "x": -112.34705715515368
+                },
+                "b": {
+                    "y": -44.2476569662407,
+                    "x": -106.82329355113075
+                }
+            }
+        },
+        "(37, 52)": {
+            "pair": [
+                37,
+                52
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 48.9943273770506,
+                    "x": -27.581628380464416
+                },
+                "b": {
+                    "y": 66.88199243920346,
+                    "x": -32.08039108105616
+                }
+            }
+        },
+        "(0, 87)": {
+            "pair": [
+                0,
+                87
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -15.873710999794298,
+                    "x": 120.57280561089776
+                },
+                "b": {
+                    "y": -15.686198183263652,
+                    "x": 120.28524506430722
+                }
+            }
+        },
+        "(29, 73)": {
+            "pair": [
+                29,
+                73
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -10.798303040134897,
+                    "x": -93.18414914068653
+                },
+                "b": {
+                    "y": 1.0998846859366935,
+                    "x": -80.3341514590532
+                }
+            }
+        },
+        "(36, 66)": {
+            "pair": [
+                36,
+                66
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 17.631659505843345,
+                    "x": 74.62021248588528
+                },
+                "b": {
+                    "y": 25.227490195205718,
+                    "x": 56.109085368865415
+                }
+            }
+        },
+        "(59, 73)": {
+            "pair": [
+                59,
+                73
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -9.255916433943039,
+                    "x": -65.41198357053995
+                },
+                "b": {
+                    "y": 1.0998846859366935,
+                    "x": -80.3341514590532
+                }
+            }
+        },
+        "(91, 92)": {
+            "pair": [
+                91,
+                92
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -20.41269817838414,
+                    "x": 18.167253881915382
+                },
+                "b": {
+                    "y": -21.97210242501892,
+                    "x": 17.563253511341152
+                }
+            }
+        },
+        "(21, 88)": {
+            "pair": [
+                21,
+                88
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -72.16128802477613,
+                    "x": 94.04242149079042
+                },
+                "b": {
+                    "y": -73.72723609152857,
+                    "x": 89.07638966167832
+                }
+            }
+        },
+        "(44, 79)": {
+            "pair": [
+                44,
+                79
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 28.765697906484853,
+                    "x": 53.897018854911295
+                },
+                "b": {
+                    "y": 29.3219513493969,
+                    "x": 51.428756687752546
+                }
+            }
+        },
+        "(39, 76)": {
+            "pair": [
+                39,
+                76
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -3.0816434881492754,
+                    "x": 75.94988478290108
+                },
+                "b": {
+                    "y": -6.061837970135318,
+                    "x": 88.80534720704978
+                }
+            }
+        },
+        "(54, 86)": {
+            "pair": [
+                54,
+                86
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -67.0353451390234,
+                    "x": 43.451659516467856
+                },
+                "b": {
+                    "y": -82.45068850215011,
+                    "x": 31.669475830612903
+                }
+            }
+        },
+        "(13, 90)": {
+            "pair": [
+                13,
+                90
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -24.1949451714283,
+                    "x": -112.34705715515368
+                },
+                "b": {
+                    "y": -20.871989305869697,
+                    "x": -122.25215047826485
+                }
+            }
+        },
+        "(6, 31)": {
+            "pair": [
+                6,
+                31
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 112.55325751411641,
+                    "x": -10.062699276539194
+                },
+                "b": {
+                    "y": 113.126990827912,
+                    "x": -12.311857753079979
+                }
+            }
+        },
+        "(24, 32)": {
+            "pair": [
+                24,
+                32
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -4.986173301794082,
+                    "x": -28.321577648663734
+                },
+                "b": {
+                    "y": 17.6380060754037,
+                    "x": -25.3851432449336
+                }
+            }
+        },
+        "(9, 10)": {
+            "pair": [
+                9,
+                10
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 75.111244490731,
+                    "x": -97.88687960599981
+                },
+                "b": {
+                    "y": 75.44417382415925,
+                    "x": -98.32076156068662
+                }
+            }
+        },
+        "(45, 82)": {
+            "pair": [
+                45,
+                82
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -59.830022994376336,
+                    "x": -27.502961362506365
+                },
+                "b": {
+                    "y": -57.17386075228363,
+                    "x": -11.895201624591747
+                }
+            }
+        },
+        "(60, 64)": {
+            "pair": [
+                60,
+                64
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -63.65644146199928,
+                    "x": -72.96534228613746
+                },
+                "b": {
+                    "y": -89.47597014830376,
+                    "x": -71.4991499200015
+                }
+            }
+        },
+        "(49, 90)": {
+            "pair": [
+                49,
+                90
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -24.1949451714283,
+                    "x": -112.34705715515368
+                },
+                "b": {
+                    "y": -10.693161252267572,
+                    "x": -97.81000224921686
+                }
+            }
+        },
+        "(28, 75)": {
+            "pair": [
+                28,
+                75
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -35.54841999471876,
+                    "x": 48.67864000482291
+                },
+                "b": {
+                    "y": -35.496848774685986,
+                    "x": 48.46287030694642
+                }
+            }
+        },
+        "(0, 23)": {
+            "pair": [
+                0,
+                23
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -15.873710999794298,
+                    "x": 120.57280561089776
+                },
+                "b": {
+                    "y": -16.17619031890758,
+                    "x": 122.87036414306678
+                }
+            }
+        },
+        "(42, 68)": {
+            "pair": [
+                42,
+                68
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -32.74693066547184,
+                    "x": -42.82388313402605
+                },
+                "b": {
+                    "y": -32.97846472692403,
+                    "x": -60.29221098710145
+                }
+            }
+        },
+        "(21, 25)": {
+            "pair": [
+                21,
+                25
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -97.98780962507371,
+                    "x": 75.87808523458659
+                },
+                "b": {
+                    "y": -73.72723609152857,
+                    "x": 89.07638966167832
+                }
+            }
+        },
+        "(12, 84)": {
+            "pair": [
+                12,
+                84
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 12.564300999138524,
+                    "x": -123.34587839302358
+                },
+                "b": {
+                    "y": 6.9729140169421555,
+                    "x": -114.79116541355431
+                }
+            }
+        },
+        "(42, 81)": {
+            "pair": [
+                42,
+                81
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -10.76358152789254,
+                    "x": -40.940069392256554
+                },
+                "b": {
+                    "y": -32.74693066547184,
+                    "x": -42.82388313402605
+                }
+            }
+        },
+        "(40, 44)": {
+            "pair": [
+                40,
+                44
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 29.3219513493969,
+                    "x": 51.428756687752546
+                },
+                "b": {
+                    "y": 19.728700849467714,
+                    "x": 25.36805539172371
+                }
+            }
+        },
+        "(13, 14)": {
+            "pair": [
+                13,
+                14
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -44.2476569662407,
+                    "x": -106.82329355113075
+                },
+                "b": {
+                    "y": -47.42619031890751,
+                    "x": -114.49695187959419
+                }
+            }
+        },
+        "(44, 91)": {
+            "pair": [
+                44,
+                91
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -5.450965065432655,
+                    "x": 45.217160636763545
+                },
+                "b": {
+                    "y": -5.041783156609398,
+                    "x": 42.204748239307996
+                }
+            }
+        },
+        "(17, 30)": {
+            "pair": [
+                17,
+                30
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -113.95111924494766,
+                    "x": -47.20009903885115
+                },
+                "b": {
+                    "y": -113.35137890920959,
+                    "x": -46.62128262267738
+                }
+            }
+        },
+        "(46, 77)": {
+            "pair": [
+                46,
+                77
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -63.25776780407197,
+                    "x": 13.272974668878794
+                },
+                "b": {
+                    "y": -67.77721187869854,
+                    "x": 2.322658837853503
+                }
+            }
+        },
+        "(9, 48)": {
+            "pair": [
+                9,
+                48
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 88.72038391261928,
+                    "x": -76.07742112068271
+                },
+                "b": {
+                    "y": 97.8891247168649,
+                    "x": -76.00669391088422
+                }
+            }
+        },
+        "(38, 88)": {
+            "pair": [
+                38,
+                88
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -42.617274006900004,
+                    "x": 83.26446209226665
+                },
+                "b": {
+                    "y": -55.69434222481244,
+                    "x": 64.2918021767927
+                }
+            }
+        },
+        "(28, 91)": {
+            "pair": [
+                28,
+                91
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -5.450965065432655,
+                    "x": 45.217160636763545
+                },
+                "b": {
+                    "y": -35.496848774685986,
+                    "x": 48.46287030694642
+                }
+            }
+        },
+        "(54, 70)": {
+            "pair": [
+                54,
+                70
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -84.27912831033144,
+                    "x": 31.6451391527345
+                },
+                "b": {
+                    "y": -95.68304439827779,
+                    "x": 56.320826140487135
+                }
+            }
+        },
+        "(32, 67)": {
+            "pair": [
+                32,
+                67
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 19.34133190106605,
+                    "x": -7.045207050493804
+                },
+                "b": {
+                    "y": 17.6380060754037,
+                    "x": -25.3851432449336
+                }
+            }
+        },
+        "(58, 70)": {
+            "pair": [
+                58,
+                70
+            ],
+            "separator segment": {
+                "a": {
+                    "y": -94.29121549693716,
+                    "x": 23.445905150664764
+                },
+                "b": {
+                    "y": -108.70171081467124,
+                    "x": 24.110121991006018
+                }
+            }
+        },
+        "(26, 29)": {
+            "pair": [
+                26,
+                29
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 18.733849912776435,
+                    "x": -96.53873039574655
+                },
+                "b": {
+                    "y": 11.930864665447778,
+                    "x": -80.49437377917731
+                }
+            }
+        },
+        "(9, 74)": {
+            "pair": [
+                9,
+                74
+            ],
+            "separator segment": {
+                "a": {
+                    "y": 88.72038391261928,
+                    "x": -76.07742112068271
+                },
+                "b": {
+                    "y": 75.111244490731,
+                    "x": -97.88687960599981
+                }
+            }
+        }
+    }
+}
+

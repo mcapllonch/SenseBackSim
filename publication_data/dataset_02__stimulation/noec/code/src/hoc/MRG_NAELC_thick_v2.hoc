@@ -1,0 +1,227 @@
+// This is a NAELC that imitates the sections of an MRG axon on their lengths
+
+begintemplate MyelAxonMammal
+
+public init, create_sections, topol, subsets, geom, biophys
+public NODE, MYSA, FLUT, STIN
+public all
+
+
+// Start initializing the class
+proc init() {
+	create_sections($o1)
+	topol($o1)
+	biophys($o1)
+}
+
+// Create sections
+create NODE[1], MYSA[1], FLUT[1], STIN[1]
+proc create_sections() {
+	n_rn = $o1.get("section_counter").get("node")
+	n_mysa = $o1.get("section_counter").get("MYSA")
+	n_flut = $o1.get("section_counter").get("FLUT")
+	n_stin = $o1.get("section_counter").get("STIN")
+	create NODE[n_rn], MYSA[n_mysa], FLUT[n_flut], STIN[n_stin]
+}
+
+// Subsets, topology, geometry and biophysics
+objref all, sctps, sec, next_sec
+proc topol() { local i, i_rn, i_mysa, i_flut, i_stin
+	objref all, sec, next_sec
+	all = new SectionList()
+	n_rn = $o1.get("section_counter").get("node")
+	n_mysa = $o1.get("section_counter").get("MYSA")
+	n_flut = $o1.get("section_counter").get("FLUT")
+	n_stin = $o1.get("section_counter").get("STIN")
+	n_mx = $o1.get("mx_n")
+	nsecs = $o1.get("nsecs")
+	sctps = $o1.get("sectypes")
+	i_rn = 0
+	i_mysa = 0
+	i_flut = 0
+	i_stin = 0
+	for i=0, nsecs-1 {
+		
+		// Select the section
+		sec = sctps.o(i)
+		
+		// Connect NODE to MYSA
+		if (strcmp(sec.sectype, "node") == 0) {
+			if (i_rn < n_rn-1) {
+				NODE[i_rn] connect MYSA[i_mysa](0), 1
+			}
+			if (i_rn == n_rn-1) {
+				if (i < nsecs-1) {
+					NODE[i_rn] connect MYSA[i_mysa](0), 1
+				}
+			}
+			NODE[i_rn] all.append()
+			i_rn += 1
+		}
+		
+		// MYSA and FLUT
+
+		// MYSA
+		if (strcmp(sec.sectype, "MYSA") == 0) {
+			if (i < nsecs-1){
+				// Connect
+				// This can go with NODE or with FLUT
+				next_sec = sctps.o(i+1)
+				// Connect MYSA to FLUT
+				if (strcmp(next_sec.sectype, "FLUT") == 0) {
+					MYSA[i_mysa] connect FLUT[i_flut](0), 1
+				}
+				// Connect MYSA to NODE
+				if (strcmp(next_sec.sectype, "node") == 0) {
+					MYSA[i_mysa] connect NODE[i_rn](0), 1
+				}
+			}
+			MYSA[i_mysa] all.append()
+			i_mysa += 1
+		}
+
+		// FLUT
+		if (strcmp(sec.sectype, "FLUT") == 0) {
+			if (i < nsecs-1){
+				// Connect
+				// This can go with STIN or with MYSA
+				next_sec = sctps.o(i+1)
+				// Connect FLUT to STIN
+				if (strcmp(next_sec.sectype, "STIN") == 0) {
+					FLUT[i_flut] connect STIN[i_stin](0), 1
+				}
+				// Connect FLUT to MYSA
+				if (strcmp(next_sec.sectype, "MYSA") == 0) {
+					FLUT[i_flut] connect MYSA[i_mysa](0), 1
+				}
+			}
+			FLUT[i_flut] all.append()
+			i_flut += 1
+		}
+			
+		// Connect STIN to FLUT
+		if (strcmp(sec.sectype, "STIN") == 0) {
+			if (i_stin < n_stin-1) {
+				STIN[i_stin] connect FLUT[i_flut](0), 1
+			}
+			if (i_stin == n_stin-1) {
+				if (i < nsecs-1) {
+					STIN[i_stin] connect FLUT[i_flut](0), 1
+				}
+			}
+			STIN[i_stin] all.append()
+			i_stin += 1
+		}
+	}
+}
+
+objref l_rn, l_mysa, l_flut, l_stin
+proc biophys() {
+	n_rn = $o1.get("section_counter").get("node")
+	n_mysa = $o1.get("section_counter").get("MYSA")
+	n_flut = $o1.get("section_counter").get("FLUT")
+	n_stin = $o1.get("section_counter").get("STIN")
+	n_mx = $o1.get("mx_n")
+	l_rn = $o1.get("lengths").get("node")
+	l_mysa = $o1.get("lengths").get("MYSA")
+	l_flut = $o1.get("lengths").get("FLUT")
+	l_stin = $o1.get("lengths").get("STIN")
+	nodeD = $o1.get("nodeD")
+	axonD = $o1.get("axonD")
+	fiberD = $o1.get("fiberD")
+	paraD1 = $o1.get("paraD1")
+	paraD2 = $o1.get("paraD2")
+	space_p1 = $o1.get("space_p1")
+	space_p2 = $o1.get("space_p2")
+	space_i = $o1.get("space_i")
+	rhoa = $o1.get("rhoa")
+	cm_ = $o1.get("cm")
+	nl = $o1.get("nl")
+	mycm = $o1.get("mycm")
+	mygm = $o1.get("mygm")
+	e_pas_ = $o1.get("IN_e_pas")
+	g_pas_MYSA = $o1.get("MYSA_g_pas")
+	g_pas_FLUT = $o1.get("FLUT_g_pas")
+	g_pas_STIN = $o1.get("STIN_g_pas")
+	Rpn0=(rhoa*1.e2)/(PI*((((nodeD/2)+space_p1)^2)-((nodeD/2)^2)))
+	Rpx=(rhoa*1.e2)/(PI*((((axonD/2)+space_i)^2)-((axonD/2)^2)))
+	Rpn1=(rhoa*1.e2)/(PI*((((paraD1/2)+space_p1)^2)-((paraD1/2)^2)))
+	Rpn2=(rhoa*1.e2)/(PI*((((paraD2/2)+space_p2)^2)-((paraD2/2)^2)))
+
+	for i=0, n_mx-1 {
+		// NODE
+		if (i < n_rn) {
+			NODE[i] {
+				L = l_rn.x[i]
+				diam = nodeD
+				nseg = 1
+				Ra = rhoa
+				cm = cm_
+				// Do not insert voltage-gated ion channels
+				// insert axnode
+				// Instead insert a dummy passive mechanism
+				insert pas
+					e_pas = 0.
+					// Just a dummy value for g_pas
+					g_pas = 1.
+				insert extracellular
+					xg[0] = 1e10
+					xc[0] = 0
+					xraxial[0] = Rpn0
+			}
+		}
+		// MYSA
+		if (i < n_mysa) {
+			MYSA[i] {
+				L = l_mysa.x[i]
+				diam = fiberD
+				nseg = 1
+				Ra = rhoa*(1/(paraD1/fiberD)^2)
+				cm = cm_*paraD1/fiberD
+				insert pas
+					e_pas = e_pas_
+					g_pas = g_pas_MYSA*paraD1/fiberD
+				insert extracellular 
+					xg[0] = mygm/(nl*2)
+					xc[0] = mycm/(nl*2)
+					xraxial[0] = Rpn1
+			}
+		}
+		// FLUT
+		if (i < n_flut) {
+			FLUT[i] {
+				L = l_flut.x[i]
+				diam = fiberD
+				nseg = 1
+				Ra = rhoa*(1/(paraD2/fiberD)^2)
+				cm = cm_*paraD2/fiberD
+				insert pas
+					e_pas = e_pas_
+					g_pas = g_pas_FLUT*paraD2/fiberD
+				insert extracellular 
+					xg[0] = mygm/(nl*2)
+					xc[0] = mycm/(nl*2)
+					xraxial[0] = Rpn2
+			}
+		}
+		// STIN
+		if (i < n_stin) {
+			STIN[i] {
+				L = l_stin.x[i]
+				diam = fiberD
+				nseg = 7
+				Ra = rhoa*(1/(axonD/fiberD)^2)
+				cm = cm_*axonD/fiberD
+				insert pas
+					e_pas = e_pas_
+					g_pas = g_pas_STIN*axonD/fiberD
+				insert extracellular 
+					xg[0] = mygm/(nl*2)
+					xc[0] = mycm/(nl*2)
+					xraxial[0] = Rpx
+			}
+		}
+	}
+}
+
+endtemplate MyelAxonMammal

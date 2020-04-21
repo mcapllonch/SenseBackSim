@@ -1,0 +1,46 @@
+{
+	"nerve model": "resistor network",
+	"axon models": ["MRG", "gaines_sensory"],
+	"only stimulation fields": "False",
+	"ephaptic coupling":
+		{
+			"presence": "True",
+			"use": "resistor network",
+			"resistor network":
+				{
+					"transverse resistor locations": "regular",
+					"resistors separation": 200.0,
+					"outside cuffs": "False",
+					"interaxonal connections": "centers"
+				}
+		},
+	"stimulation": 
+		{
+			"method": "from electrodes",
+			"file": "./data/load/extstim.csv"
+		},
+	"data records":
+		{
+			"record cables": "all",
+			"record axons": "all",
+			"record sections": ["node"],
+			"variables":
+				[
+					"v",
+					"vext[1]"
+				]
+		},
+	"temperature": 37.0,
+	"simulation control":
+		{
+			"dt": 0.005,
+			"nt": 250,
+			"v_init": -80.0
+		},
+	"graphics": "False",
+	"verbose": "True", 
+	"miscellanea":
+		{
+			"NAELC def nseg": 1
+		}
+}

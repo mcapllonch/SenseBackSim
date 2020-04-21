@@ -1,0 +1,130 @@
+begintemplate MyelAxon
+
+public init, create_sections, topol, subsets, geom, biophys
+public ranvrnodes, internodes
+public all
+
+
+// Start initializing the class
+proc init() {
+	create_sections($o1)
+	subsets($o1)
+	// nseg, defined in geom, depends on Ra and cm, defined in biophys
+	// Nevermind
+	geom($o1)
+	topol($o1)
+	biophys($o1)
+}
+
+// Create sections
+create ranvrnodes[1], internodes[1]
+proc create_sections() {
+	n_rn = $o1.get("RN_n")
+	n_in = $o1.get("IN_n")
+	create ranvrnodes[n_rn], internodes[n_in]
+}
+
+// Subset, topology, geometry and biophysics
+objref all
+proc subsets() { local i
+	objref all
+	all = new SectionList()
+	n_rn = $o1.get("RN_n")
+	n_in = $o1.get("IN_n")
+	n_mx = $o1.get("mx_n")
+	for i=0, n_mx-1 {
+		if (i < n_rn) {ranvrnodes[i] all.append()}
+		if (i < n_in) {internodes[i] all.append()}
+	}
+}
+
+objref l_rn, l_in
+proc geom() {
+	n_rn = $o1.get("RN_n")
+	n_in = $o1.get("IN_n")
+	n_mx = $o1.get("mx_n")
+	l_rn = $o1.get("RN_L")
+	l_in = $o1.get("IN_L")
+	for i=0, n_mx-1 {
+		if (i < n_rn) {
+			ranvrnodes[i].L = l_rn.x[i]
+			ranvrnodes[i].diam = $o1.get("RN_diam")
+			ranvrnodes[i].nseg = 1
+		}
+		if (i < n_in) {
+			internodes[i].L = l_in.x[i]
+			// IMPORTANT: This has to be RN_diam, which is the internal diameter of the internode as well
+			internodes[i].diam = $o1.get("RN_diam")
+			internodes[i].nseg = 11
+		}
+	}
+}
+
+// objref nseg_rn, nseg_in, sctps
+objref sctps
+proc topol() { local i
+	n_rn = $o1.get("RN_n")
+	n_in = $o1.get("IN_n")
+	n_mx = $o1.get("mx_n")
+	nsecs = $o1.get("nsecs")
+	sctps = $o1.get("sectypes")
+	i_rn = 0
+	i_in = 0
+	for i=0, nsecs-1 {
+		if (sctps.x(i) == 0) {
+			if (i_rn < n_rn-1) {
+				ranvrnodes[i_rn] connect internodes[i_in](0), 1
+			}
+			if (i_rn == n_rn-1) {
+				if (i < nsecs-1) {
+					ranvrnodes[i_rn] connect internodes[i_in](0), 1
+				}
+			}
+			i_rn += 1
+		}
+		if (sctps.x(i) == 1) {
+			if (i_in < n_in-1) {
+				internodes[i_in] connect ranvrnodes[i_rn](0), 1
+			}
+			if (i_in == n_in-1) {
+				if (i < nsecs-1) {
+					internodes[i_in] connect ranvrnodes[i_rn](0), 1
+				}
+			}
+			i_in += 1
+		}
+	}
+}
+
+proc biophys() {
+
+	n_rn = $o1.get("RN_n")
+	n_in = $o1.get("IN_n")
+	n_mx = $o1.get("mx_n")
+	for i=0, n_mx-1 {
+		if (i < n_rn) {
+			ranvrnodes[i] {
+				Ra = $o1.get("Ra")
+				cm = $o1.get("RN_cm")
+				insert extracellular
+					xg = 0.
+					xraxial = 1e9
+				insert hh
+			}
+		}
+		if (i < n_in) {
+			internodes[i] {
+				Ra = $o1.get("Ra")
+				cm = $o1.get("IN_cm")
+				insert extracellular 
+					xg = 0.
+					xraxial = 1e9
+				insert pas
+					e_pas = $o1.get("IN_e_pas")
+					g_pas = $o1.get("IN_g_pas")
+			}
+		}
+	}
+}
+
+endtemplate MyelAxon
