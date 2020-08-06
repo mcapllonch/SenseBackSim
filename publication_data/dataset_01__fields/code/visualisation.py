@@ -421,8 +421,6 @@ def cross_sec_results(data):
 	x, y = ws.nvt.x, ws.nvt.y
 	ax.scatter(x, y, c='k', s=1, zorder=zorder)
 
-df2
-
 	# Arrange figure
 	xleft = x.min()
 	xrght = x.max()
