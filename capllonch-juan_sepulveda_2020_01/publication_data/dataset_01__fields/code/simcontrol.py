@@ -6,14 +6,14 @@ import os
 import sys
 import numpy as np
 import json
-# from neuron import h
+from neuron import h
 from datetime import datetime
 import time
 
-# import electrodes
+import electrodes
 import anatomy
-# import analysis as als
-# import biophysics as bio
+import analysis as als
+import biophysics as bio
 import workspace as ws
 import tools as tls
 
@@ -171,8 +171,7 @@ def physics():
 	ws.ilD = ws.anatomy_settings['axons']['myelinated']['internodal length to fiberD ratio']
 
 	# Temperature
-	if False:
-		h.celsius = ws.settings['temperature']
+	h.celsius = ws.settings['temperature']
 
 	# Resistivities and thicknesses
 	# Units:
@@ -276,9 +275,8 @@ def prepare_workspace(remove_previous=True):
 	ws.log("Execution started on: %s"%now.strftime("%d %h %Y at %H:%M:%S"))
 	# Set up some physical properties of the system from the settings
 	physics()
-	if False:
-		# Set up a simulation
-		setup_simcontrol()
+	# Set up a simulation
+	setup_simcontrol()
 	# Miscellaneous variables
 	miscellanea()
 
