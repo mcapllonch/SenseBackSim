@@ -1,4 +1,4 @@
-MANUSCRIPT: "Modelling the Effects of Ephaptic Coupling on Selectivity and Response Patterns during Artificial Stimulation of Peripheral Nerves", by Miguel Capllonch-Juan and Francisco Sepulveda (2020). PLOS Computational Biology.
+MANUSCRIPT: <b>Modelling the effects of ephaptic coupling on selectivity and response patterns during artificial stimulation of peripheral nerves</b>, by Miguel Capllonch-Juan and Francisco Sepulveda (2020). PLOS Computational Biology.
 
 SECTION: "Results: Effects of ephaptic coupling on propagation"
 
