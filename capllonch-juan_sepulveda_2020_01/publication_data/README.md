@@ -1,4 +1,4 @@
-This folder contains specific data and code for the results in the article <b>Modelling the effects of ephaptic coupling on selectivity and response patterns during artificial stimulation of peripheral nerves</b>, by Miguel Capllonch-Juan and Francisco Sepulveda (2020). PLOS Computational Biology.
+This folder contains specific data and code for the results in the article <a href="https://doi.org/10.1371/journal.pcbi.1007826"><b>Modelling the effects of ephaptic coupling on selectivity and response patterns during artificial stimulation of peripheral nerves</b>, by Miguel Capllonch-Juan and Francisco Sepulveda (2020). PLOS Computational Biology.</a>
 
 <b>Installation:</b>
 
